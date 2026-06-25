@@ -5,7 +5,9 @@
   },
   "runArgs": [
     "--network=host",
-    "--privileged"
+    "--privileged",
+    "-e", "DISPLAY", "-v", 
+    "/tmp/.X11-unix:/tmp/.X11-unix:rw",
   ],
   "workspaceMount": "source=${localWorkspaceFolder},target=/openarm_ws/src,type=bind",
   "workspaceFolder": "/openarm_ws/src",
