@@ -1,0 +1,22 @@
+{
+  "name": "OpenArm ROS2",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "runArgs": [
+    "--network=host",
+    "--privileged"
+  ],
+  "workspaceMount": "source=${localWorkspaceFolder},target=/openarm_ws/src,type=bind",
+  "workspaceFolder": "/openarm_ws/src",
+  "postCreateCommand": "rosdep update && rosdep install --from-paths /openarm_ws/src --ignore-src -r -y --skip-keys 'openarm_can openarm_description moveit_ros_move_group moveit_kinematics moveit_planners moveit_simple_controller_manager moveit_configs_utils moveit_ros_visualization moveit_setup_assistant' || true",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-iot.vscode-ros",
+        "ms-python.python",
+        "ms-vscode.cpptools"
+      ]
+    }
+  }
+}
