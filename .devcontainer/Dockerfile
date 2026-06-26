@@ -16,9 +16,12 @@ RUN apt-get update && apt-get install -y \
   ros-jazzy-xacro \
   ros-jazzy-ros2-controllers \
   ros-jazzy-ros2-control-test-assets \
+  ros-jazzy-pinocchio \
+  git \
   software-properties-common \
   python3-rosdep \
   python3-colcon-common-extensions \
+  clangd \
   && rm -rf /var/lib/apt/lists/*
 
 # Install openarm_can via PPA
@@ -27,6 +30,10 @@ RUN add-apt-repository -y ppa:openarm/main \
   libopenarm-can-dev \
   openarm-can-utils \
   && rm -rf /var/lib/apt/lists/*
+
+RUN mkdir -p /usr/local/lib/cmake/openarm_can && \
+    echo 'include("/usr/lib/aarch64-linux-gnu/cmake/OpenArmCAN/OpenArmCANConfig.cmake")' \
+    > /usr/local/lib/cmake/openarm_can/openarm_canConfig.cmake
 
 RUN echo "source /opt/ros/jazzy/setup.bash" >> /root/.bashrc
 

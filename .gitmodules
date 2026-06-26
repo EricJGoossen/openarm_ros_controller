@@ -4,3 +4,7 @@
 [submodule "openarm_description"]
 	path = openarm_description
 	url = https://github.com/enactic/openarm_description
+[submodule "cartesian_control_msgs"]
+	path = cartesian_control_msgs
+	url = https://github.com/UniversalRobots/Universal_Robots_ROS_cartesian_control_msgs.git
+	branch = ros2-main
