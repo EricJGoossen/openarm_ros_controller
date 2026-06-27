@@ -1,0 +1,39 @@
+[0.033s] Invoking command in '/openarm_ws/src/build/openarm': AMENT_PREFIX_PATH=/openarm_ws/src/install/openarm_bringup:/openarm_ws/src/install/openarm_bimanual_moveit_config:/openarm_ws/src/install/openarm_hardware:/openarm_ws/src/install/openarm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/openarm_ws/src/install/openarm_bringup:/openarm_ws/src/install/openarm_bimanual_moveit_config:/openarm_ws/src/install/openarm_hardware:/openarm_ws/src/install/openarm_description:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/openarm_ws/src/install/openarm_hardware/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /openarm_ws/src/openarm_ros2/openarm -DCMAKE_INSTALL_PREFIX=/openarm_ws/src/install/openarm
+[0.134s] -- The C compiler identification is GNU 13.3.0
+[0.224s] -- The CXX compiler identification is GNU 13.3.0
+[0.243s] -- Detecting C compiler ABI info
+[0.383s] -- Detecting C compiler ABI info - done
+[0.395s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.395s] -- Detecting C compile features
+[0.395s] -- Detecting C compile features - done
+[0.404s] -- Detecting CXX compiler ABI info
+[0.500s] -- Detecting CXX compiler ABI info - done
+[0.517s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.517s] -- Detecting CXX compile features
+[0.517s] -- Detecting CXX compile features - done
+[0.520s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.683s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.917s] -- Configuring done (0.9s)
+[0.922s] -- Generating done (0.0s)
+[0.924s] -- Build files have been written to: /openarm_ws/src/build/openarm
+[0.931s] Invoked command in '/openarm_ws/src/build/openarm' returned '0': AMENT_PREFIX_PATH=/openarm_ws/src/install/openarm_bringup:/openarm_ws/src/install/openarm_bimanual_moveit_config:/openarm_ws/src/install/openarm_hardware:/openarm_ws/src/install/openarm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/openarm_ws/src/install/openarm_bringup:/openarm_ws/src/install/openarm_bimanual_moveit_config:/openarm_ws/src/install/openarm_hardware:/openarm_ws/src/install/openarm_description:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/openarm_ws/src/install/openarm_hardware/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /openarm_ws/src/openarm_ros2/openarm -DCMAKE_INSTALL_PREFIX=/openarm_ws/src/install/openarm
+[0.933s] Invoking command in '/openarm_ws/src/build/openarm': AMENT_PREFIX_PATH=/openarm_ws/src/install/openarm_bringup:/openarm_ws/src/install/openarm_bimanual_moveit_config:/openarm_ws/src/install/openarm_hardware:/openarm_ws/src/install/openarm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/openarm_ws/src/install/openarm_bringup:/openarm_ws/src/install/openarm_bimanual_moveit_config:/openarm_ws/src/install/openarm_hardware:/openarm_ws/src/install/openarm_description:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/openarm_ws/src/install/openarm_hardware/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /openarm_ws/src/build/openarm -- -j14 -l14
+[0.977s] Invoked command in '/openarm_ws/src/build/openarm' returned '0': AMENT_PREFIX_PATH=/openarm_ws/src/install/openarm_bringup:/openarm_ws/src/install/openarm_bimanual_moveit_config:/openarm_ws/src/install/openarm_hardware:/openarm_ws/src/install/openarm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/openarm_ws/src/install/openarm_bringup:/openarm_ws/src/install/openarm_bimanual_moveit_config:/openarm_ws/src/install/openarm_hardware:/openarm_ws/src/install/openarm_description:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/openarm_ws/src/install/openarm_hardware/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /openarm_ws/src/build/openarm -- -j14 -l14
+[0.979s] Invoking command in '/openarm_ws/src/build/openarm': AMENT_PREFIX_PATH=/openarm_ws/src/install/openarm_bringup:/openarm_ws/src/install/openarm_bimanual_moveit_config:/openarm_ws/src/install/openarm_hardware:/openarm_ws/src/install/openarm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/openarm_ws/src/install/openarm_bringup:/openarm_ws/src/install/openarm_bimanual_moveit_config:/openarm_ws/src/install/openarm_hardware:/openarm_ws/src/install/openarm_description:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/openarm_ws/src/install/openarm_hardware/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /openarm_ws/src/build/openarm
+[0.986s] -- Install configuration: ""
+[0.987s] -- Installing: /openarm_ws/src/install/openarm/share/ament_index/resource_index/package_run_dependencies/openarm
+[0.987s] -- Installing: /openarm_ws/src/install/openarm/share/ament_index/resource_index/parent_prefix_path/openarm
+[0.987s] -- Installing: /openarm_ws/src/install/openarm/share/openarm/environment/ament_prefix_path.sh
+[0.987s] -- Installing: /openarm_ws/src/install/openarm/share/openarm/environment/ament_prefix_path.dsv
+[0.988s] -- Installing: /openarm_ws/src/install/openarm/share/openarm/environment/path.sh
+[0.988s] -- Installing: /openarm_ws/src/install/openarm/share/openarm/environment/path.dsv
+[0.988s] -- Installing: /openarm_ws/src/install/openarm/share/openarm/local_setup.bash
+[0.988s] -- Installing: /openarm_ws/src/install/openarm/share/openarm/local_setup.sh
+[0.988s] -- Installing: /openarm_ws/src/install/openarm/share/openarm/local_setup.zsh
+[0.989s] -- Installing: /openarm_ws/src/install/openarm/share/openarm/local_setup.dsv
+[0.989s] -- Installing: /openarm_ws/src/install/openarm/share/openarm/package.dsv
+[0.989s] -- Installing: /openarm_ws/src/install/openarm/share/ament_index/resource_index/packages/openarm
+[0.989s] -- Installing: /openarm_ws/src/install/openarm/share/openarm/cmake/openarmConfig.cmake
+[0.989s] -- Installing: /openarm_ws/src/install/openarm/share/openarm/cmake/openarmConfig-version.cmake
+[0.989s] -- Installing: /openarm_ws/src/install/openarm/share/openarm/package.xml
+[0.990s] Invoked command in '/openarm_ws/src/build/openarm' returned '0': AMENT_PREFIX_PATH=/openarm_ws/src/install/openarm_bringup:/openarm_ws/src/install/openarm_bimanual_moveit_config:/openarm_ws/src/install/openarm_hardware:/openarm_ws/src/install/openarm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/openarm_ws/src/install/openarm_bringup:/openarm_ws/src/install/openarm_bimanual_moveit_config:/openarm_ws/src/install/openarm_hardware:/openarm_ws/src/install/openarm_description:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/openarm_ws/src/install/openarm_hardware/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /openarm_ws/src/build/openarm

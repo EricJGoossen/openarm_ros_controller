@@ -1,0 +1,78 @@
+[0.018s] Invoking command in '/openarm_ws/src/build/openarm_cartesian_control': AMENT_PREFIX_PATH=/openarm_ws/src/install/rosbag_recorder:/openarm_ws/src/install/openarm_hardware:/openarm_ws/src/install/cartesian_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/openarm_ws/src/install/openarm_hardware:/openarm_ws/src/install/cartesian_control_msgs:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/openarm_ws/src/install/openarm_hardware/lib:/openarm_ws/src/install/cartesian_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/openarm_ws/src/install/rosbag_recorder/lib/python3.12/site-packages:/openarm_ws/src/install/cartesian_control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /openarm_ws/src/openarm_cartesian_control -DCMAKE_INSTALL_PREFIX=/openarm_ws/src/install/openarm_cartesian_control
+[0.090s] -- The C compiler identification is GNU 13.3.0
+[0.161s] -- The CXX compiler identification is GNU 13.3.0
+[0.185s] -- Detecting C compiler ABI info
+[0.300s] -- Detecting C compiler ABI info - done
+[0.321s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.324s] -- Detecting C compile features
+[0.324s] -- Detecting C compile features - done
+[0.337s] -- Detecting CXX compiler ABI info
+[0.461s] -- Detecting CXX compiler ABI info - done
+[0.481s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.482s] -- Detecting CXX compile features
+[0.483s] -- Detecting CXX compile features - done
+[0.490s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.677s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.823s] -- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.877s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.891s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.908s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.925s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.989s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.996s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.082s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.103s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.130s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.190s] -- Found rclcpp_action: 28.1.18 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+[1.224s] -- Found controller_interface: 4.45.2 (/opt/ros/jazzy/share/controller_interface/cmake)
+[1.561s] -- Found cartesian_control_msgs: 0.1.0 (/openarm_ws/src/install/cartesian_control_msgs/share/cartesian_control_msgs/cmake)
+[1.582s] -- Found openarm_hardware: 0.3.0 (/openarm_ws/src/install/openarm_hardware/share/openarm_hardware/cmake)
+[1.609s] -- Found Boost: /usr/include (found version "1.83.0") found components: filesystem serialization 
+[1.611s] -- eigenpy FOUND. eigenpy at /opt/ros/jazzy/lib/aarch64-linux-gnu/libeigenpy.so
+[1.643s] -- Checking for NumPy
+[1.883s] --   NUMPY_INCLUDE_DIRS=/usr/lib/python3/dist-packages/numpy/core/include
+[2.006s] --   NUMPY_VERSION=1.26.4
+[2.391s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development.Module NumPy 
+[2.392s] -- PythonLibraryDirs: 
+[2.393s] -- PythonLibVersionString: 3.12.3
+[2.418s] -- Python site lib: lib/python3.12/site-packages
+[2.418s] -- Python include dirs: /usr/include/python3.12
+[2.470s] -- Checking for NumPy
+[2.575s] --   NUMPY_INCLUDE_DIRS=/usr/lib/python3/dist-packages/numpy/core/include
+[2.681s] --   NUMPY_VERSION=1.26.4
+[2.681s] -- NumPy include dir: /usr/lib/python3/dist-packages/numpy/core/include
+[2.698s] -- Found Boost: /usr/include (found version "1.83.0") found components: python312 
+[3.041s] -- Default C++ standard: 201703
+[3.041s] -- Minimal C++ standard upgraded to 11
+[3.041s] -- C++ standard sufficient: Minimal required 11, currently defined: 17
+[3.041s] -- CMAKE_CXX_STANDARD was not set: automatically set to currently defined standard 17
+[3.042s] -- coal FOUND. coal at /opt/ros/jazzy/lib/aarch64-linux-gnu/libcoal.so
+[3.055s] -- Found Boost: /usr/include (found version "1.83.0") found components: serialization filesystem 
+[3.067s] -- Minimal C++ standard upgraded to 14
+[3.067s] -- C++ standard sufficient: Minimal required 14, currently defined: 17
+[3.068s] -- Minimal C++ standard upgraded to 17
+[3.068s] -- C++ standard sufficient: Minimal required 17, currently defined: 17
+[3.074s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[3.074s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.077s] -- Found tf2_ros: 0.36.20 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[3.148s] -- Found tf2_eigen: 0.36.20 (/opt/ros/jazzy/share/tf2_eigen/cmake)
+[3.158s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[3.272s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.273s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/openarm_ws/src/openarm_cartesian_control/include>
+[3.273s] -- Configured cppcheck exclude dirs and/or files: 
+[3.274s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.274s] -- Configured 'flake8' exclude dirs and/or files: 
+[3.275s] -- Added test 'lint_cmake' to check CMake code style
+[3.276s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.281s] -- Added test 'uncrustify' to check C / C++ code style
+[3.282s] -- Configured uncrustify additional arguments: 
+[3.282s] -- Added test 'xmllint' to check XML markup files
+[3.284s] -- Configuring done (3.3s)
+[3.316s] -- Generating done (0.0s)
+[3.322s] -- Build files have been written to: /openarm_ws/src/build/openarm_cartesian_control
+[3.341s] Invoked command in '/openarm_ws/src/build/openarm_cartesian_control' returned '0': AMENT_PREFIX_PATH=/openarm_ws/src/install/rosbag_recorder:/openarm_ws/src/install/openarm_hardware:/openarm_ws/src/install/cartesian_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/openarm_ws/src/install/openarm_hardware:/openarm_ws/src/install/cartesian_control_msgs:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/openarm_ws/src/install/openarm_hardware/lib:/openarm_ws/src/install/cartesian_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/openarm_ws/src/install/rosbag_recorder/lib/python3.12/site-packages:/openarm_ws/src/install/cartesian_control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /openarm_ws/src/openarm_cartesian_control -DCMAKE_INSTALL_PREFIX=/openarm_ws/src/install/openarm_cartesian_control
+[3.342s] Invoking command in '/openarm_ws/src/build/openarm_cartesian_control': AMENT_PREFIX_PATH=/openarm_ws/src/install/rosbag_recorder:/openarm_ws/src/install/openarm_hardware:/openarm_ws/src/install/cartesian_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/openarm_ws/src/install/openarm_hardware:/openarm_ws/src/install/cartesian_control_msgs:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/openarm_ws/src/install/openarm_hardware/lib:/openarm_ws/src/install/cartesian_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/openarm_ws/src/install/rosbag_recorder/lib/python3.12/site-packages:/openarm_ws/src/install/cartesian_control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /openarm_ws/src/build/openarm_cartesian_control -- -j14 -l14
+[3.409s] [ 33%] [32mBuilding CXX object CMakeFiles/openarm_cartesian_control.dir/src/cartesian_impedance.cpp.o[0m
+[3.412s] [ 66%] [32mBuilding CXX object CMakeFiles/openarm_cartesian_control.dir/src/openarm_cartesian_controller.cpp.o[0m
+[17.236s] [100%] [32m[1mLinking CXX shared library libopenarm_cartesian_control.so[0m
+[17.647s] [100%] Built target openarm_cartesian_control

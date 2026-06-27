@@ -1,0 +1,36 @@
+[0.018s] Invoking command in '/openarm_ws/src/build/openarm_impedance': AMENT_PREFIX_PATH=/openarm_ws/src/install/rosbag_recorder:/openarm_ws/src/install/openarm_hardware:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/openarm_ws/src/install/openarm_hardware:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/openarm_ws/src/install/openarm_hardware/lib:${LD_LIBRARY_PATH} PYTHONPATH=/openarm_ws/src/install/rosbag_recorder/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /openarm_ws/src/build/openarm_impedance -- -j14 -l14
+[0.157s] [ 33%] [32mBuilding CXX object CMakeFiles/openarm_impedance.dir/src/openarm_impedance_controller.cpp.o[0m
+[11.702s] [ 66%] [32m[1mLinking CXX shared library libopenarm_impedance.so[0m
+[12.076s] [100%] Built target openarm_impedance
+[12.093s] Invoked command in '/openarm_ws/src/build/openarm_impedance' returned '0': AMENT_PREFIX_PATH=/openarm_ws/src/install/rosbag_recorder:/openarm_ws/src/install/openarm_hardware:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/openarm_ws/src/install/openarm_hardware:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/openarm_ws/src/install/openarm_hardware/lib:${LD_LIBRARY_PATH} PYTHONPATH=/openarm_ws/src/install/rosbag_recorder/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /openarm_ws/src/build/openarm_impedance -- -j14 -l14
+[12.095s] Invoking command in '/openarm_ws/src/build/openarm_impedance': AMENT_PREFIX_PATH=/openarm_ws/src/install/rosbag_recorder:/openarm_ws/src/install/openarm_hardware:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/openarm_ws/src/install/openarm_hardware:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/openarm_ws/src/install/openarm_hardware/lib:${LD_LIBRARY_PATH} PYTHONPATH=/openarm_ws/src/install/rosbag_recorder/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /openarm_ws/src/build/openarm_impedance
+[12.104s] -- Install configuration: ""
+[12.105s] -- Installing: /openarm_ws/src/install/openarm_impedance/share/openarm_impedance/openarm_impedance_plugins.xml
+[12.105s] -- Installing: /openarm_ws/src/install/openarm_impedance/lib/libopenarm_impedance.so
+[12.112s] -- Set non-toolchain portion of runtime path of "/openarm_ws/src/install/openarm_impedance/lib/libopenarm_impedance.so" to ""
+[12.112s] -- Installing: /openarm_ws/src/install/openarm_impedance/include
+[12.112s] -- Installing: /openarm_ws/src/install/openarm_impedance/include/openarm_impedance_control
+[12.112s] -- Installing: /openarm_ws/src/install/openarm_impedance/include/openarm_impedance_control/openarm_impedance_controller.hpp
+[12.112s] -- Installing: /openarm_ws/src/install/openarm_impedance/include/openarm_impedance_control/impedance.hpp
+[12.113s] -- Installing: /openarm_ws/src/install/openarm_impedance/share/openarm_impedance/launch
+[12.113s] -- Installing: /openarm_ws/src/install/openarm_impedance/share/openarm_impedance/launch/openarm_cartesian_control.launch.py
+[12.113s] -- Installing: /openarm_ws/src/install/openarm_impedance/share/openarm_impedance/config
+[12.113s] -- Installing: /openarm_ws/src/install/openarm_impedance/share/openarm_impedance/config/openarm_cartesian_controllers.yaml
+[12.113s] -- Up-to-date: /openarm_ws/src/install/openarm_impedance/share/openarm_impedance/openarm_impedance_plugins.xml
+[12.113s] -- Installing: /openarm_ws/src/install/openarm_impedance/share/ament_index/resource_index/package_run_dependencies/openarm_impedance
+[12.113s] -- Installing: /openarm_ws/src/install/openarm_impedance/share/ament_index/resource_index/parent_prefix_path/openarm_impedance
+[12.113s] -- Installing: /openarm_ws/src/install/openarm_impedance/share/openarm_impedance/environment/ament_prefix_path.sh
+[12.113s] -- Installing: /openarm_ws/src/install/openarm_impedance/share/openarm_impedance/environment/ament_prefix_path.dsv
+[12.113s] -- Installing: /openarm_ws/src/install/openarm_impedance/share/openarm_impedance/environment/path.sh
+[12.114s] -- Installing: /openarm_ws/src/install/openarm_impedance/share/openarm_impedance/environment/path.dsv
+[12.114s] -- Installing: /openarm_ws/src/install/openarm_impedance/share/openarm_impedance/local_setup.bash
+[12.114s] -- Installing: /openarm_ws/src/install/openarm_impedance/share/openarm_impedance/local_setup.sh
+[12.114s] -- Installing: /openarm_ws/src/install/openarm_impedance/share/openarm_impedance/local_setup.zsh
+[12.114s] -- Installing: /openarm_ws/src/install/openarm_impedance/share/openarm_impedance/local_setup.dsv
+[12.114s] -- Installing: /openarm_ws/src/install/openarm_impedance/share/openarm_impedance/package.dsv
+[12.114s] -- Installing: /openarm_ws/src/install/openarm_impedance/share/ament_index/resource_index/packages/openarm_impedance
+[12.114s] -- Installing: /openarm_ws/src/install/openarm_impedance/share/ament_index/resource_index/controller_interface__pluginlib__plugin/openarm_impedance
+[12.114s] -- Installing: /openarm_ws/src/install/openarm_impedance/share/openarm_impedance/cmake/openarm_impedanceConfig.cmake
+[12.114s] -- Installing: /openarm_ws/src/install/openarm_impedance/share/openarm_impedance/cmake/openarm_impedanceConfig-version.cmake
+[12.115s] -- Installing: /openarm_ws/src/install/openarm_impedance/share/openarm_impedance/package.xml
+[12.117s] Invoked command in '/openarm_ws/src/build/openarm_impedance' returned '0': AMENT_PREFIX_PATH=/openarm_ws/src/install/rosbag_recorder:/openarm_ws/src/install/openarm_hardware:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/openarm_ws/src/install/openarm_hardware:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/openarm_ws/src/install/openarm_hardware/lib:${LD_LIBRARY_PATH} PYTHONPATH=/openarm_ws/src/install/rosbag_recorder/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /openarm_ws/src/build/openarm_impedance

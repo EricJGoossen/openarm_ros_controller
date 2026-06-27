@@ -1,0 +1,19 @@
+{
+  "package_name": "cartesian_control_msgs",
+  "output_dir": "/openarm_ws/src/build/cartesian_control_msgs/rosidl_generator_type_description/cartesian_control_msgs",
+  "idl_tuples": [
+    "/openarm_ws/src/build/cartesian_control_msgs/rosidl_adapter/cartesian_control_msgs:action/FollowCartesianTrajectory.idl",
+    "/openarm_ws/src/build/cartesian_control_msgs/rosidl_adapter/cartesian_control_msgs:msg/CartesianPosture.idl",
+    "/openarm_ws/src/build/cartesian_control_msgs/rosidl_adapter/cartesian_control_msgs:msg/CartesianTolerance.idl",
+    "/openarm_ws/src/build/cartesian_control_msgs/rosidl_adapter/cartesian_control_msgs:msg/CartesianTrajectory.idl",
+    "/openarm_ws/src/build/cartesian_control_msgs/rosidl_adapter/cartesian_control_msgs:msg/CartesianTrajectoryPoint.idl"
+  ],
+  "include_paths": [
+    "action_msgs:/opt/ros/jazzy/share/action_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces",
+    "unique_identifier_msgs:/opt/ros/jazzy/share/unique_identifier_msgs",
+    "service_msgs:/opt/ros/jazzy/share/service_msgs",
+    "geometry_msgs:/opt/ros/jazzy/share/geometry_msgs",
+    "std_msgs:/opt/ros/jazzy/share/std_msgs"
+  ]
+}

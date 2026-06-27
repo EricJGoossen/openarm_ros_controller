@@ -1,0 +1,32 @@
+[ 33%] [32mBuilding CXX object CMakeFiles/openarm_impedance.dir/src/openarm_impedance_controller.cpp.o[0m
+[ 66%] [32m[1mLinking CXX shared library libopenarm_impedance.so[0m
+[100%] Built target openarm_impedance
+-- Install configuration: ""
+-- Installing: /openarm_ws/src/install/openarm_impedance/share/openarm_impedance/openarm_impedance_plugins.xml
+-- Installing: /openarm_ws/src/install/openarm_impedance/lib/libopenarm_impedance.so
+-- Set non-toolchain portion of runtime path of "/openarm_ws/src/install/openarm_impedance/lib/libopenarm_impedance.so" to ""
+-- Installing: /openarm_ws/src/install/openarm_impedance/include
+-- Installing: /openarm_ws/src/install/openarm_impedance/include/openarm_impedance_control
+-- Installing: /openarm_ws/src/install/openarm_impedance/include/openarm_impedance_control/openarm_impedance_controller.hpp
+-- Installing: /openarm_ws/src/install/openarm_impedance/include/openarm_impedance_control/impedance.hpp
+-- Installing: /openarm_ws/src/install/openarm_impedance/share/openarm_impedance/launch
+-- Installing: /openarm_ws/src/install/openarm_impedance/share/openarm_impedance/launch/openarm_cartesian_control.launch.py
+-- Installing: /openarm_ws/src/install/openarm_impedance/share/openarm_impedance/config
+-- Installing: /openarm_ws/src/install/openarm_impedance/share/openarm_impedance/config/openarm_cartesian_controllers.yaml
+-- Up-to-date: /openarm_ws/src/install/openarm_impedance/share/openarm_impedance/openarm_impedance_plugins.xml
+-- Installing: /openarm_ws/src/install/openarm_impedance/share/ament_index/resource_index/package_run_dependencies/openarm_impedance
+-- Installing: /openarm_ws/src/install/openarm_impedance/share/ament_index/resource_index/parent_prefix_path/openarm_impedance
+-- Installing: /openarm_ws/src/install/openarm_impedance/share/openarm_impedance/environment/ament_prefix_path.sh
+-- Installing: /openarm_ws/src/install/openarm_impedance/share/openarm_impedance/environment/ament_prefix_path.dsv
+-- Installing: /openarm_ws/src/install/openarm_impedance/share/openarm_impedance/environment/path.sh
+-- Installing: /openarm_ws/src/install/openarm_impedance/share/openarm_impedance/environment/path.dsv
+-- Installing: /openarm_ws/src/install/openarm_impedance/share/openarm_impedance/local_setup.bash
+-- Installing: /openarm_ws/src/install/openarm_impedance/share/openarm_impedance/local_setup.sh
+-- Installing: /openarm_ws/src/install/openarm_impedance/share/openarm_impedance/local_setup.zsh
+-- Installing: /openarm_ws/src/install/openarm_impedance/share/openarm_impedance/local_setup.dsv
+-- Installing: /openarm_ws/src/install/openarm_impedance/share/openarm_impedance/package.dsv
+-- Installing: /openarm_ws/src/install/openarm_impedance/share/ament_index/resource_index/packages/openarm_impedance
+-- Installing: /openarm_ws/src/install/openarm_impedance/share/ament_index/resource_index/controller_interface__pluginlib__plugin/openarm_impedance
+-- Installing: /openarm_ws/src/install/openarm_impedance/share/openarm_impedance/cmake/openarm_impedanceConfig.cmake
+-- Installing: /openarm_ws/src/install/openarm_impedance/share/openarm_impedance/cmake/openarm_impedanceConfig-version.cmake
+-- Installing: /openarm_ws/src/install/openarm_impedance/share/openarm_impedance/package.xml

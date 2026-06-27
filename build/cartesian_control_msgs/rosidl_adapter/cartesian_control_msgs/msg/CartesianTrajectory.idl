@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from cartesian_control_msgs/msg/CartesianTrajectory.msg
+// generated code does not contain a copyright notice
+
+#include "cartesian_control_msgs/msg/CartesianTrajectoryPoint.idl"
+#include "std_msgs/msg/Header.idl"
+
+module cartesian_control_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "header.frame_id is the frame in which all data from CartesianTrajectoryPoint[] is given")
+    struct CartesianTrajectory {
+      std_msgs::msg::Header header;
+
+      sequence<cartesian_control_msgs::msg::CartesianTrajectoryPoint> points;
+
+      string controlled_frame;
+    };
+  };
+};

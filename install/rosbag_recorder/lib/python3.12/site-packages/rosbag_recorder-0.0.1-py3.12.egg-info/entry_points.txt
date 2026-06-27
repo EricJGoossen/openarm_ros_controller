@@ -1,0 +1,2 @@
+[console_scripts]
+recorder_node = rosbag_recorder.recorder_node:main

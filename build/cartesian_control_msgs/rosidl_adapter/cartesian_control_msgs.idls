@@ -1,0 +1,5 @@
+/openarm_ws/src/build/cartesian_control_msgs/rosidl_adapter/cartesian_control_msgs:action/FollowCartesianTrajectory.idl
+/openarm_ws/src/build/cartesian_control_msgs/rosidl_adapter/cartesian_control_msgs:msg/CartesianPosture.idl
+/openarm_ws/src/build/cartesian_control_msgs/rosidl_adapter/cartesian_control_msgs:msg/CartesianTolerance.idl
+/openarm_ws/src/build/cartesian_control_msgs/rosidl_adapter/cartesian_control_msgs:msg/CartesianTrajectory.idl
+/openarm_ws/src/build/cartesian_control_msgs/rosidl_adapter/cartesian_control_msgs:msg/CartesianTrajectoryPoint.idl

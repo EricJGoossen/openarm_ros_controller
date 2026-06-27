@@ -1,0 +1,29 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from cartesian_control_msgs/msg/CartesianTrajectoryPoint.msg
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Duration.idl"
+#include "cartesian_control_msgs/msg/CartesianPosture.idl"
+#include "geometry_msgs/msg/Accel.idl"
+#include "geometry_msgs/msg/Pose.idl"
+#include "geometry_msgs/msg/Twist.idl"
+
+module cartesian_control_msgs {
+  module msg {
+    struct CartesianTrajectoryPoint {
+      builtin_interfaces::msg::Duration time_from_start;
+
+      geometry_msgs::msg::Pose pose;
+
+      geometry_msgs::msg::Twist twist;
+
+      geometry_msgs::msg::Accel acceleration;
+
+      @verbatim (language="comment", text=
+        "A more suitable datatype would be good, see https://github.com/ros/common_msgs/issues/137")
+      geometry_msgs::msg::Accel jerk;
+
+      cartesian_control_msgs::msg::CartesianPosture posture;
+    };
+  };
+};

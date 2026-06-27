@@ -1,0 +1,66 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "cartesian_control_msgs/action/FollowCartesianTrajectory_GetResult_Response",
+      "fields": [
+        {
+          "name": "status",
+          "type": {
+            "type_id": 2,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "result",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "cartesian_control_msgs/action/FollowCartesianTrajectory_Result"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "cartesian_control_msgs/action/FollowCartesianTrajectory_Result",
+        "fields": [
+          {
+            "name": "error_code",
+            "type": {
+              "type_id": 6,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "error_string",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "cartesian_control_msgs/action/FollowCartesianTrajectory_GetResult_Response",
+      "hash_string": "RIHS01_26f059a0b9a37882b635b6be11d385775fa583182a8d343b9b2cd1e585c4798c"
+    },
+    {
+      "type_name": "cartesian_control_msgs/action/FollowCartesianTrajectory_Result",
+      "hash_string": "RIHS01_60c2e3aae0fc7ca4e2a2482f4db11d16a78081eab82d18953a9e5726df726b05"
+    }
+  ]
+}

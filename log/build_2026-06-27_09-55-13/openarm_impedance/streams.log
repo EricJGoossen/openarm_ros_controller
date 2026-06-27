@@ -1,0 +1,655 @@
+[0.018s] Invoking command in '/openarm_ws/src/build/openarm_impedance': AMENT_PREFIX_PATH=/openarm_ws/src/install/rosbag_recorder:/openarm_ws/src/install/openarm_hardware:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/openarm_ws/src/install/openarm_hardware:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/openarm_ws/src/install/openarm_hardware/lib:${LD_LIBRARY_PATH} PYTHONPATH=/openarm_ws/src/install/rosbag_recorder/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /openarm_ws/src/build/openarm_impedance -- -j14 -l14
+[0.162s] [ 33%] [32mBuilding CXX object CMakeFiles/openarm_impedance.dir/src/impedance.cpp.o[0m
+[0.167s] [ 66%] [32mBuilding CXX object CMakeFiles/openarm_impedance.dir/src/openarm_impedance_controller.cpp.o[0m
+[5.659s] [01m[K/openarm_ws/src/openarm_impedance_control/src/impedance.cpp:[m[K In member function ‘[01m[KEigen::VectorXd openarm_impedance_control::Impedance::[01;32m[KcomputeControl[m[K(const Eigen::VectorXd&, const Eigen::VectorXd&, const Eigen::VectorXd&, const Eigen::VectorXd&)[m[K’:
+[5.659s] [01m[K/openarm_ws/src/openarm_impedance_control/src/impedance.cpp:109:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint_torque_limits_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktorque_limits_[m[K’?
+[5.660s]   109 |   clamp(tau, [01;31m[Kjoint_torque_limits_[m[K);
+[5.660s]       |              [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[5.660s]       |              [32m[Ktorque_limits_[m[K
+[7.824s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:10:38:[m[K [01;31m[Kerror: [m[K‘[01m[KOpenArmImpedanceController[m[K’ has not been declared
+[7.824s]    10 | controller_interface::CallbackReturn [01;31m[KOpenArmImpedanceController[m[K::on_init() {
+[7.825s]       |                                      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.840s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:[m[K In function ‘[01m[Kcontroller_interface::CallbackReturn openarm_impedance::[01;32m[Kon_init[m[K()[m[K’:
+[7.841s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:12:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kauto_declare[m[K’ was not declared in this scope
+[7.842s]    12 |   [01;31m[Kauto_declare[m[K<std::vector<std::string>>("joints", std::vector<std::string>{});
+[7.842s]       |   [01;31m[K^~~~~~~~~~~~[m[K
+[7.843s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:12:39:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[7.843s]    12 |   auto_declare<std::vector<std::string[01;31m[K>>[m[K("joints", std::vector<std::string>{});
+[7.844s]       |                                       [01;31m[K^~[m[K
+[7.845s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:12:42:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[7.845s]    12 |   auto_declare<std::vector<std::string>>([01;35m[K"joints"[m[K, std::vector<std::string>{});
+[7.846s]       |                                          [01;35m[K^~~~~~~~[m[K
+[7.846s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:13:27:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[7.847s]    13 |   auto_declare<std::string[01;31m[K>[m[K("robot_description", "");
+[7.847s]       |                           [01;31m[K^[m[K
+[7.848s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:13:29:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[7.849s]    13 |   auto_declare<std::string>([01;35m[K"robot_description"[m[K, "");
+[7.849s]       |                             [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[7.850s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:14:34:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[7.850s]    14 |   auto_declare<std::vector<double[01;31m[K>>[m[K(
+[7.851s]       |                                  [01;31m[K^~[m[K
+[7.851s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:15:7:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[7.852s]    15 |       [01;35m[K"cartesian_position_upper_limits"[m[K, std::vector<double>(3, INFINITY));
+[7.853s]       |       [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.853s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:16:34:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[7.854s]    16 |   auto_declare<std::vector<double[01;31m[K>>[m[K(
+[7.854s]       |                                  [01;31m[K^~[m[K
+[7.855s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:17:7:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[7.855s]    17 |       [01;35m[K"cartesian_torque_limits"[m[K, std::vector<double>(6, INFINITY));
+[7.856s]       |       [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.856s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:18:34:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[7.857s]    18 |   auto_declare<std::vector<double[01;31m[K>>[m[K(
+[7.858s]       |                                  [01;31m[K^~[m[K
+[7.858s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:19:7:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[7.859s]    19 |       [01;35m[K"joint_torque_limits"[m[K, std::vector<double>(7, INFINITY));
+[7.859s]       |       [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[7.860s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:20:34:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[7.860s]    20 |   auto_declare<std::vector<double[01;31m[K>>[m[K("k_gains", std::vector<double>(6, 0.0));
+[7.861s]       |                                  [01;31m[K^~[m[K
+[7.861s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:20:37:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[7.862s]    20 |   auto_declare<std::vector<double>>([01;35m[K"k_gains"[m[K, std::vector<double>(6, 0.0));
+[7.862s]       |                                     [01;35m[K^~~~~~~~~[m[K
+[7.863s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:21:34:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[7.863s]    21 |   auto_declare<std::vector<double[01;31m[K>>[m[K("d_gains", std::vector<double>(6, 0.0));
+[7.864s]       |                                  [01;31m[K^~[m[K
+[7.864s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:21:37:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[7.865s]    21 |   auto_declare<std::vector<double>>([01;35m[K"d_gains"[m[K, std::vector<double>(6, 0.0));
+[7.865s]       |                                     [01;35m[K^~~~~~~~~[m[K
+[7.866s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:22:27:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[7.866s]    22 |   auto_declare<std::string[01;31m[K>[m[K("ee_frame_name", "tool0");
+[7.867s]       |                           [01;31m[K^[m[K
+[7.867s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:22:29:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[7.868s]    22 |   auto_declare<std::string>([01;35m[K"ee_frame_name"[m[K, "tool0");
+[7.868s]       |                             [01;35m[K^~~~~~~~~~~~~~~[m[K
+[7.870s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:25:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint_names_[m[K’ was not declared in this scope
+[7.870s]    25 |   [01;31m[Kjoint_names_[m[K = get_node()->get_parameter("joints").as_string_array();
+[7.871s]       |   [01;31m[K^~~~~~~~~~~~[m[K
+[7.871s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:25:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_node[m[K’ was not declared in this scope
+[7.872s]    25 |   joint_names_ = [01;31m[Kget_node[m[K()->get_parameter("joints").as_string_array();
+[7.872s]       |                  [01;31m[K^~~~~~~~[m[K
+[7.872s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+[7.873s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+[7.873s]                  from [01m[K/openarm_ws/src/openarm_impedance_control/include/openarm_impedance_control/openarm_impedance_controller.hpp:7[m[K,
+[7.874s]                  from [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:1[m[K:
+[7.874s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:39:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[7.874s]    39 |     [01;31m[KRCLCPP_ERROR[m[K(get_node()->get_logger(), "robot_description parameter is empty");
+[7.875s]       |     [01;31m[K^~~~~~~~~~~~[m[K
+[7.876s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:40:12:[m[K [01;31m[Kerror: [m[K‘[01m[KCallbackReturn[m[K’ has not been declared
+[7.876s]    40 |     return [01;31m[KCallbackReturn[m[K::ERROR;
+[7.877s]       |            [01;31m[K^~~~~~~~~~~~~~[m[K
+[7.885s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:45:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kimpedance_controller_[m[K’ was not declared in this scope
+[7.885s]    45 |     [01;31m[Kimpedance_controller_[m[K.emplace(
+[7.886s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[7.886s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:54:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[7.887s]    54 |     [01;31m[KRCLCPP_ERROR[m[K(get_node()->get_logger(),
+[7.887s]       |     [01;31m[K^~~~~~~~~~~~[m[K
+[7.887s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:56:12:[m[K [01;31m[Kerror: [m[K‘[01m[KCallbackReturn[m[K’ has not been declared
+[7.888s]    56 |     return [01;31m[KCallbackReturn[m[K::ERROR;
+[7.889s]       |            [01;31m[K^~~~~~~~~~~~~~[m[K
+[7.907s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:60:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kimpedance_controller_[m[K’ was not declared in this scope
+[7.908s]    60 |   [01;31m[Kimpedance_controller_[m[K->setStiffness(
+[7.908s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[7.932s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:67:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kparam_callback_handle_[m[K’ was not declared in this scope
+[7.933s]    67 |   [01;31m[Kparam_callback_handle_[m[K = get_node()->add_on_set_parameters_callback(
+[7.933s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.934s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:68:18:[m[K [01;31m[Kerror: [m[K‘[01m[KOpenArmImpedanceController[m[K’ has not been declared
+[7.934s]    68 |       std::bind(&[01;31m[KOpenArmImpedanceController[m[K::onParameterChange,
+[7.935s]       |                  [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.936s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:69:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[7.936s]    69 |                 [01;31m[Kthis[m[K, std::placeholders::_1));
+[7.937s]       |                 [01;31m[K^~~~[m[K
+[7.946s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:72:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kaction_server_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_action_server_t[m[K’?
+[7.946s]    72 |   [01;31m[Kaction_server_[m[K = rclcpp_action::create_server<FollowCartesianTrajectoryAction>(
+[7.947s]       |   [01;31m[K^~~~~~~~~~~~~~[m[K
+[7.948s]       |   [32m[Krcl_action_server_t[m[K
+[7.979s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:72:49:[m[K [01;31m[Kerror: [m[K‘[01m[KFollowCartesianTrajectoryAction[m[K’ was not declared in this scope
+[7.979s]    72 |   action_server_ = rclcpp_action::create_server<[01;31m[KFollowCartesianTrajectoryAction[m[K>(
+[7.980s]       |                                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.981s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:75:18:[m[K [01;31m[Kerror: [m[K‘[01m[KOpenArmImpedanceController[m[K’ has not been declared
+[7.981s]    75 |       std::bind(&[01;31m[KOpenArmImpedanceController[m[K::onGoalRequest,
+[7.982s]       |                  [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.982s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:76:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[7.983s]    76 |                 [01;31m[Kthis[m[K, std::placeholders::_1, std::placeholders::_2),
+[7.983s]       |                 [01;31m[K^~~~[m[K
+[7.984s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:77:18:[m[K [01;31m[Kerror: [m[K‘[01m[KOpenArmImpedanceController[m[K’ has not been declared
+[7.985s]    77 |       std::bind(&[01;31m[KOpenArmImpedanceController[m[K::onCancelRequest,
+[7.985s]       |                  [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.986s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:78:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[7.986s]    78 |                 [01;31m[Kthis[m[K, std::placeholders::_1),
+[7.987s]       |                 [01;31m[K^~~~[m[K
+[7.987s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:79:18:[m[K [01;31m[Kerror: [m[K‘[01m[KOpenArmImpedanceController[m[K’ has not been declared
+[7.988s]    79 |       std::bind(&[01;31m[KOpenArmImpedanceController[m[K::onGoalAccepted,
+[7.989s]       |                  [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.989s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:80:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[7.990s]    80 |                 [01;31m[Kthis[m[K, std::placeholders::_1));
+[7.991s]       |                 [01;31m[K^~~~[m[K
+[7.991s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:82:10:[m[K [01;31m[Kerror: [m[K‘[01m[KCallbackReturn[m[K’ has not been declared
+[7.992s]    82 |   return [01;31m[KCallbackReturn[m[K::SUCCESS;
+[7.992s]       |          [01;31m[K^~~~~~~~~~~~~~[m[K
+[7.993s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:[m[K At global scope:
+[7.993s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:85:38:[m[K [01;31m[Kerror: [m[K‘[01m[KOpenArmImpedanceController[m[K’ has not been declared
+[7.994s]    85 | controller_interface::CallbackReturn [01;31m[KOpenArmImpedanceController[m[K::on_activate(
+[7.994s]       |                                      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.998s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:[m[K In function ‘[01m[Kcontroller_interface::CallbackReturn openarm_impedance::[01;32m[Kon_activate[m[K(const rclcpp_lifecycle::State&)[m[K’:
+[7.999s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:88:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kcommand_interfaces_[m[K’ was not declared in this scope
+[7.999s]    88 |   for (auto& cmd : [01;31m[Kcommand_interfaces_[m[K) {
+[8.000s]       |                    [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[8.015s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:93:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ktrajectory_buffer_[m[K’ was not declared in this scope
+[8.016s]    93 |   [01;31m[Ktrajectory_buffer_[m[K.writeFromNonRT(nullptr);
+[8.017s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[8.030s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:94:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kfeedback_msg_[m[K’ was not declared in this scope
+[8.031s]    94 |   [01;31m[Kfeedback_msg_[m[K = std::make_shared<FollowCartesianTrajectoryAction::Feedback>();
+[8.031s]       |   [01;31m[K^~~~~~~~~~~~~[m[K
+[8.062s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:94:36:[m[K [01;31m[Kerror: [m[K‘[01m[KFollowCartesianTrajectoryAction[m[K’ was not declared in this scope
+[8.063s]    94 |   feedback_msg_ = std::make_shared<[01;31m[KFollowCartesianTrajectoryAction[m[K::Feedback>();
+[8.064s]       |                                    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.064s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:94:24:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[8.065s]    94 |   feedback_msg_ = std::[01;31m[Kmake_shared<FollowCartesianTrajectoryAction::Feedback>[m[K();
+[8.066s]       |                        [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.066s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:94:78:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+[8.067s]    94 |   feedback_msg_ = [01;31m[Kstd::make_shared<FollowCartesianTrajectoryAction::Feedback>()[m[K;
+[8.068s]       |                   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[8.069s] In file included from [01m[K/usr/include/c++/13/memory:80[m[K,
+[8.070s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:169[m[K:
+[8.071s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:1005:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<typename std::enable_if<(! std::is_array< <template-parameter-1-1> >::value), _Tp>::type> std::[01;32m[Kmake_shared[m[K(_Args&& ...)[m[K’
+[8.072s]  1005 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+[8.073s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[8.073s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:1005:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[8.074s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:94:78:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.075s]    94 |   feedback_msg_ = [01;31m[Kstd::make_shared<FollowCartesianTrajectoryAction::Feedback>()[m[K;
+[8.075s]       |                   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[8.077s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:96:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_mutex_[m[K’ was not declared in this scope
+[8.077s]    96 |     std::lock_guard<std::mutex> lock([01;31m[Kgoal_mutex_[m[K);
+[8.078s]       |                                      [01;31m[K^~~~~~~~~~~[m[K
+[8.088s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:97:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kactive_goal_[m[K’ was not declared in this scope
+[8.089s]    97 |     [01;31m[Kactive_goal_[m[K.reset();
+[8.090s]       |     [01;31m[K^~~~~~~~~~~~[m[K
+[8.104s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:99:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kfeedback_count_[m[K’ was not declared in this scope
+[8.105s]    99 |   [01;31m[Kfeedback_count_[m[K = 0;
+[8.106s]       |   [01;31m[K^~~~~~~~~~~~~~~[m[K
+[8.116s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:103:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint_names_[m[K’ was not declared in this scope
+[8.116s]   103 |   Eigen::VectorXd q([01;31m[Kjoint_names_[m[K.size());
+[8.117s]       |                     [01;31m[K^~~~~~~~~~~~[m[K
+[8.132s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:105:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kstate_interfaces_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_interfaces[m[K’?
+[8.133s]   105 |     q[i] = [01;31m[Kstate_interfaces_[m[K[i * 2].get_value();
+[8.134s]       |            [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[8.135s]       |            [32m[Krcl_interfaces[m[K
+[8.156s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:107:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kimpedance_controller_[m[K’ was not declared in this scope
+[8.157s]   107 |   [01;31m[Kimpedance_controller_[m[K->initFK(q);
+[8.158s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[8.171s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:108:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kx_ref_pos_[m[K’ was not declared in this scope
+[8.172s]   108 |   [01;31m[Kx_ref_pos_[m[K  = impedance_controller_->getPose();
+[8.172s]       |   [01;31m[K^~~~~~~~~~[m[K
+[8.184s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:109:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kx_ref_quat_[m[K’ was not declared in this scope
+[8.184s]   109 |   [01;31m[Kx_ref_quat_[m[K = impedance_controller_->getOrientation();
+[8.185s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[8.198s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:110:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kx_ref_linvel_[m[K’ was not declared in this scope
+[8.199s]   110 |   [01;31m[Kx_ref_linvel_[m[K.setZero();
+[8.200s]       |   [01;31m[K^~~~~~~~~~~~~[m[K
+[8.212s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:111:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kx_ref_angvel_[m[K’ was not declared in this scope
+[8.213s]   111 |   [01;31m[Kx_ref_angvel_[m[K.setZero();
+[8.214s]       |   [01;31m[K^~~~~~~~~~~~~[m[K
+[8.237s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:113:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ktrajectory_start_time_[m[K’ was not declared in this scope
+[8.238s]   113 |   [01;31m[Ktrajectory_start_time_[m[K = get_node()->get_clock()->now();
+[8.239s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.245s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:113:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_node[m[K’ was not declared in this scope
+[8.246s]   113 |   trajectory_start_time_ = [01;31m[Kget_node[m[K()->get_clock()->now();
+[8.246s]       |                            [01;31m[K^~~~~~~~[m[K
+[8.247s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:115:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.248s]   115 |   [01;31m[KRCLCPP_INFO[m[K(get_node()->get_logger(), "OpenArm Cartesian Controller activated");
+[8.249s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[8.249s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:[m[K At global scope:
+[8.250s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:119:38:[m[K [01;31m[Kerror: [m[K‘[01m[KOpenArmImpedanceController[m[K’ has not been declared
+[8.251s]   119 | controller_interface::CallbackReturn [01;31m[KOpenArmImpedanceController[m[K::on_deactivate(
+[8.252s]       |                                      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.258s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:[m[K In function ‘[01m[Kcontroller_interface::CallbackReturn openarm_impedance::[01;32m[Kon_deactivate[m[K(const rclcpp_lifecycle::State&)[m[K’:
+[8.259s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:122:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_mutex_[m[K’ was not declared in this scope
+[8.259s]   122 |     std::lock_guard<std::mutex> lock([01;31m[Kgoal_mutex_[m[K);
+[8.260s]       |                                      [01;31m[K^~~~~~~~~~~[m[K
+[8.271s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:123:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kactive_goal_[m[K’ was not declared in this scope
+[8.272s]   123 |     if ([01;31m[Kactive_goal_[m[K) {
+[8.273s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[8.305s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:124:38:[m[K [01;31m[Kerror: [m[K‘[01m[KFollowCartesianTrajectoryAction[m[K’ was not declared in this scope
+[8.306s]   124 |       auto result = std::make_shared<[01;31m[KFollowCartesianTrajectoryAction[m[K::Result>();
+[8.306s]       |                                      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.307s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:124:26:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[8.308s]   124 |       auto result = std::[01;31m[Kmake_shared<FollowCartesianTrajectoryAction::Result>[m[K();
+[8.309s]       |                          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.309s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:124:78:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+[8.310s]   124 |       auto result = [01;31m[Kstd::make_shared<FollowCartesianTrajectoryAction::Result>()[m[K;
+[8.311s]       |                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[8.312s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:1005:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<typename std::enable_if<(! std::is_array< <template-parameter-1-1> >::value), _Tp>::type> std::[01;32m[Kmake_shared[m[K(_Args&& ...)[m[K’
+[8.312s]  1005 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+[8.313s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[8.314s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:1005:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[8.314s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:124:78:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.315s]   124 |       auto result = [01;31m[Kstd::make_shared<FollowCartesianTrajectoryAction::Result>()[m[K;
+[8.316s]       |                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[8.326s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:131:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kcommand_interfaces_[m[K’ was not declared in this scope
+[8.327s]   131 |   for (auto& cmd : [01;31m[Kcommand_interfaces_[m[K) {
+[8.328s]       |                    [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[8.333s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:134:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_node[m[K’ was not declared in this scope
+[8.334s]   134 |   RCLCPP_INFO([01;31m[Kget_node[m[K()->get_logger(), "OpenArm Cartesian Controller deactivated");
+[8.335s]       |               [01;31m[K^~~~~~~~[m[K
+[8.335s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:134:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.336s]   134 |   [01;31m[KRCLCPP_INFO[m[K(get_node()->get_logger(), "OpenArm Cartesian Controller deactivated");
+[8.337s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[8.337s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:[m[K At global scope:
+[8.338s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:138:38:[m[K [01;31m[Kerror: [m[K‘[01m[KOpenArmImpedanceController[m[K’ has not been declared
+[8.339s]   138 | controller_interface::CallbackReturn [01;31m[KOpenArmImpedanceController[m[K::on_configure(
+[8.339s]       |                                      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.343s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:[m[K In function ‘[01m[Kcontroller_interface::CallbackReturn openarm_impedance::[01;32m[Kon_configure[m[K(const rclcpp_lifecycle::State&)[m[K’:
+[8.344s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:141:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_node[m[K’ was not declared in this scope
+[8.345s]   141 |     std::string("/") + [01;31m[Kget_node[m[K()->get_name() + "/follow_cartesian_trajectory";
+[8.346s]       |                        [01;31m[K^~~~~~~~[m[K
+[8.358s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:143:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kaction_server_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_action_server_t[m[K’?
+[8.359s]   143 |   [01;31m[Kaction_server_[m[K = rclcpp_action::create_server<FollowCartesianTrajectoryAction>(
+[8.359s]       |   [01;31m[K^~~~~~~~~~~~~~[m[K
+[8.360s]       |   [32m[Krcl_action_server_t[m[K
+[8.391s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:143:49:[m[K [01;31m[Kerror: [m[K‘[01m[KFollowCartesianTrajectoryAction[m[K’ was not declared in this scope
+[8.391s]   143 |   action_server_ = rclcpp_action::create_server<[01;31m[KFollowCartesianTrajectoryAction[m[K>(
+[8.392s]       |                                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.393s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:146:18:[m[K [01;31m[Kerror: [m[K‘[01m[KOpenArmCartesianController[m[K’ has not been declared
+[8.394s]   146 |       std::bind(&[01;31m[KOpenArmCartesianController[m[K::onGoalRequest,
+[8.395s]       |                  [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.395s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:147:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[8.396s]   147 |                 [01;31m[Kthis[m[K, std::placeholders::_1, std::placeholders::_2),
+[8.397s]       |                 [01;31m[K^~~~[m[K
+[8.397s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:148:18:[m[K [01;31m[Kerror: [m[K‘[01m[KOpenArmCartesianController[m[K’ has not been declared
+[8.398s]   148 |       std::bind(&[01;31m[KOpenArmCartesianController[m[K::onCancelRequest,
+[8.399s]       |                  [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.399s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:149:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[8.400s]   149 |                 [01;31m[Kthis[m[K, std::placeholders::_1),
+[8.401s]       |                 [01;31m[K^~~~[m[K
+[8.402s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:150:18:[m[K [01;31m[Kerror: [m[K‘[01m[KOpenArmCartesianController[m[K’ has not been declared
+[8.403s]   150 |       std::bind(&[01;31m[KOpenArmCartesianController[m[K::onGoalAccepted,
+[8.404s]       |                  [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.404s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:151:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[8.405s]   151 |                 [01;31m[Kthis[m[K, std::placeholders::_1));
+[8.405s]       |                 [01;31m[K^~~~[m[K
+[8.406s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:153:10:[m[K [01;31m[Kerror: [m[K‘[01m[KCallbackReturn[m[K’ has not been declared
+[8.406s]   153 |   return [01;31m[KCallbackReturn[m[K::SUCCESS;
+[8.407s]       |          [01;31m[K^~~~~~~~~~~~~~[m[K
+[8.407s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:[m[K At global scope:
+[8.408s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:159:1:[m[K [01;31m[Kerror: [m[K‘[01m[KOpenArmImpedanceController[m[K’ has not been declared
+[8.408s]   159 | [01;31m[KOpenArmImpedanceController[m[K::command_interface_configuration() const {
+[8.409s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.409s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:159:63:[m[K [01;31m[Kerror: [m[Knon-member function ‘[01m[Kcontroller_interface::InterfaceConfiguration openarm_impedance::[01;32m[Kcommand_interface_configuration[m[K()[m[K’ cannot have cv-qualifier
+[8.410s]   159 | OpenArmImpedanceController::command_interface_configuration() [01;31m[Kconst[m[K {
+[8.410s]       |                                                               [01;31m[K^~~~~[m[K
+[8.411s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:[m[K In function ‘[01m[Kcontroller_interface::InterfaceConfiguration openarm_impedance::[01;32m[Kcommand_interface_configuration[m[K()[m[K’:
+[8.411s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:162:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint_names_[m[K’ was not declared in this scope
+[8.412s]   162 |   for (const auto& name : [01;31m[Kjoint_names_[m[K) {
+[8.412s]       |                           [01;31m[K^~~~~~~~~~~~[m[K
+[8.413s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:[m[K At global scope:
+[8.413s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:169:1:[m[K [01;31m[Kerror: [m[K‘[01m[KOpenArmImpedanceController[m[K’ has not been declared
+[8.413s]   169 | [01;31m[KOpenArmImpedanceController[m[K::state_interface_configuration() const {
+[8.414s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.414s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:169:61:[m[K [01;31m[Kerror: [m[Knon-member function ‘[01m[Kcontroller_interface::InterfaceConfiguration openarm_impedance::[01;32m[Kstate_interface_configuration[m[K()[m[K’ cannot have cv-qualifier
+[8.415s]   169 | OpenArmImpedanceController::state_interface_configuration() [01;31m[Kconst[m[K {
+[8.415s]       |                                                             [01;31m[K^~~~~[m[K
+[8.418s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:[m[K In function ‘[01m[Kcontroller_interface::InterfaceConfiguration openarm_impedance::[01;32m[Kstate_interface_configuration[m[K()[m[K’:
+[8.418s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:172:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint_names_[m[K’ was not declared in this scope
+[8.418s]   172 |   for (const auto& name : [01;31m[Kjoint_names_[m[K) {
+[8.419s]       |                           [01;31m[K^~~~~~~~~~~~[m[K
+[8.419s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:[m[K At global scope:
+[8.420s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:181:35:[m[K [01;31m[Kerror: [m[K‘[01m[KOpenArmImpedanceController[m[K’ has not been declared
+[8.420s]   181 | controller_interface::return_type [01;31m[KOpenArmImpedanceController[m[K::update(
+[8.420s]       |                                   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.431s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:[m[K In function ‘[01m[Kcontroller_interface::return_type openarm_impedance::[01;32m[Kupdate[m[K(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[8.431s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:184:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint_names_[m[K’ was not declared in this scope
+[8.431s]   184 |   Eigen::VectorXd q([01;31m[Kjoint_names_[m[K.size());
+[8.432s]       |                     [01;31m[K^~~~~~~~~~~~[m[K
+[8.450s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:187:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kstate_interfaces_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_interfaces[m[K’?
+[8.450s]   187 |     q[i]  = [01;31m[Kstate_interfaces_[m[K[i * 2].get_value();
+[8.451s]       |             [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[8.451s]       |             [32m[Krcl_interfaces[m[K
+[8.467s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:192:25:[m[K [01;31m[Kerror: [m[K‘[01m[Ktrajectory_buffer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktrajectory_ptr[m[K’?
+[8.468s]   192 |   auto trajectory_ptr = [01;31m[Ktrajectory_buffer_[m[K.readFromRT();
+[8.468s]       |                         [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[8.469s]       |                         [32m[Ktrajectory_ptr[m[K
+[8.493s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:195:5:[m[K [01;31m[Kerror: [m[K‘[01m[KinterpolateTrajectory[m[K’ was not declared in this scope
+[8.494s]   195 |     [01;31m[KinterpolateTrajectory[m[K(**trajectory_ptr, time);
+[8.495s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[8.518s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:199:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kimpedance_controller_[m[K’ was not declared in this scope
+[8.519s]   199 |   const Eigen::VectorXd torques = [01;31m[Kimpedance_controller_[m[K->computeControl(
+[8.520s]       |                                   [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[8.531s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:200:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kx_ref_pos_[m[K’ was not declared in this scope
+[8.532s]   200 |       q, dq, [01;31m[Kx_ref_pos_[m[K, x_ref_quat_, x_ref_linvel_, x_ref_angvel_);
+[8.533s]       |              [01;31m[K^~~~~~~~~~[m[K
+[8.546s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:200:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kx_ref_quat_[m[K’ was not declared in this scope
+[8.547s]   200 |       q, dq, x_ref_pos_, [01;31m[Kx_ref_quat_[m[K, x_ref_linvel_, x_ref_angvel_);
+[8.548s]       |                          [01;31m[K^~~~~~~~~~~[m[K
+[8.562s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:200:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kx_ref_linvel_[m[K’ was not declared in this scope
+[8.563s]   200 |       q, dq, x_ref_pos_, x_ref_quat_, [01;31m[Kx_ref_linvel_[m[K, x_ref_angvel_);
+[8.563s]       |                                       [01;31m[K^~~~~~~~~~~~~[m[K
+[8.578s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:200:54:[m[K [01;31m[Kerror: [m[K‘[01m[Kx_ref_angvel_[m[K’ was not declared in this scope
+[8.579s]   200 |       q, dq, x_ref_pos_, x_ref_quat_, x_ref_linvel_, [01;31m[Kx_ref_angvel_[m[K);
+[8.580s]       |                                                      [01;31m[K^~~~~~~~~~~~~[m[K
+[8.595s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:202:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kcommand_interfaces_[m[K’ was not declared in this scope
+[8.596s]   202 |     (void)[01;31m[Kcommand_interfaces_[m[K[i].set_value(torques[i]);
+[8.597s]       |           [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[8.605s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:205:19:[m[K [01;31m[Kerror: [m[K‘[01m[KGoalHandle[m[K’ was not declared in this scope
+[8.606s]   205 |   std::shared_ptr<[01;31m[KGoalHandle[m[K> goal;
+[8.607s]       |                   [01;31m[K^~~~~~~~~~[m[K
+[8.608s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:205:29:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.609s]   205 |   std::shared_ptr<GoalHandle[01;31m[K>[m[K goal;
+[8.609s]       |                             [01;31m[K^[m[K
+[8.618s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:207:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_mutex_[m[K’ was not declared in this scope
+[8.619s]   207 |     std::lock_guard<std::mutex> lock([01;31m[Kgoal_mutex_[m[K);
+[8.619s]       |                                      [01;31m[K^~~~~~~~~~~[m[K
+[8.631s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:208:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kactive_goal_[m[K’ was not declared in this scope
+[8.631s]   208 |     goal = [01;31m[Kactive_goal_[m[K;
+[8.632s]       |            [01;31m[K^~~~~~~~~~~~[m[K
+[8.633s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:216:11:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+[8.634s]   216 |   if (goal[01;31m[K->[m[Kis_canceling()) {
+[8.634s]       |           [01;31m[K^~[m[K
+[8.664s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:217:36:[m[K [01;31m[Kerror: [m[K‘[01m[KFollowCartesianTrajectoryAction[m[K’ was not declared in this scope
+[8.665s]   217 |     auto result = std::make_shared<[01;31m[KFollowCartesianTrajectoryAction[m[K::Result>();
+[8.666s]       |                                    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.666s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:217:24:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[8.667s]   217 |     auto result = std::[01;31m[Kmake_shared<FollowCartesianTrajectoryAction::Result>[m[K();
+[8.668s]       |                        [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.669s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:217:76:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+[8.669s]   217 |     auto result = [01;31m[Kstd::make_shared<FollowCartesianTrajectoryAction::Result>()[m[K;
+[8.671s]       |                   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[8.672s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:1005:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<typename std::enable_if<(! std::is_array< <template-parameter-1-1> >::value), _Tp>::type> std::[01;32m[Kmake_shared[m[K(_Args&& ...)[m[K’
+[8.673s]  1005 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+[8.674s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[8.674s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:1005:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[8.675s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:217:76:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.676s]   217 |     auto result = [01;31m[Kstd::make_shared<FollowCartesianTrajectoryAction::Result>()[m[K;
+[8.677s]       |                   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[8.678s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:218:26:[m[K [01;31m[Kerror: [m[K‘[01m[KFollowCartesianTrajectoryAction[m[K’ is not a class, namespace, or enumeration
+[8.679s]   218 |     result->error_code = [01;31m[KFollowCartesianTrajectoryAction[m[K::Result::SUCCESSFUL;
+[8.679s]       |                          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.680s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:219:9:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+[8.680s]   219 |     goal[01;31m[K->[m[Kcanceled(result);
+[8.681s]       |         [01;31m[K^~[m[K
+[8.681s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:222:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_mutex_[m[K’ was not declared in this scope
+[8.682s]   222 |       std::lock_guard<std::mutex> lock([01;31m[Kgoal_mutex_[m[K);
+[8.682s]       |                                        [01;31m[K^~~~~~~~~~~[m[K
+[8.691s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:223:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kactive_goal_[m[K’ was not declared in this scope
+[8.692s]   223 |       [01;31m[Kactive_goal_[m[K = nullptr;
+[8.693s]       |       [01;31m[K^~~~~~~~~~~~[m[K
+[8.712s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:232:43:[m[K [01;31m[Kerror: [m[K‘[01m[Ktrajectory_start_time_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktrajectory_active[m[K’?
+[8.713s]   232 |   const rclcpp::Duration elapsed = time - [01;31m[Ktrajectory_start_time_[m[K;
+[8.714s]       |                                           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.714s]       |                                           [32m[Ktrajectory_active[m[K
+[8.746s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:234:36:[m[K [01;31m[Kerror: [m[K‘[01m[KFollowCartesianTrajectoryAction[m[K’ was not declared in this scope
+[8.746s]   234 |     auto result = std::make_shared<[01;31m[KFollowCartesianTrajectoryAction[m[K::Result>();
+[8.748s]       |                                    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.749s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:234:24:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[8.749s]   234 |     auto result = std::[01;31m[Kmake_shared<FollowCartesianTrajectoryAction::Result>[m[K();
+[8.750s]       |                        [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.751s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:234:76:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+[8.752s]   234 |     auto result = [01;31m[Kstd::make_shared<FollowCartesianTrajectoryAction::Result>()[m[K;
+[8.753s]       |                   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[8.753s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:1005:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<typename std::enable_if<(! std::is_array< <template-parameter-1-1> >::value), _Tp>::type> std::[01;32m[Kmake_shared[m[K(_Args&& ...)[m[K’
+[8.754s]  1005 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+[8.755s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[8.755s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:1005:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[8.756s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:234:76:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.756s]   234 |     auto result = [01;31m[Kstd::make_shared<FollowCartesianTrajectoryAction::Result>()[m[K;
+[8.757s]       |                   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[8.758s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:235:26:[m[K [01;31m[Kerror: [m[K‘[01m[KFollowCartesianTrajectoryAction[m[K’ is not a class, namespace, or enumeration
+[8.758s]   235 |     result->error_code = [01;31m[KFollowCartesianTrajectoryAction[m[K::Result::SUCCESSFUL;
+[8.759s]       |                          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.759s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:236:9:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+[8.760s]   236 |     goal[01;31m[K->[m[Ksucceed(result);
+[8.760s]       |         [01;31m[K^~[m[K
+[8.761s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:239:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_mutex_[m[K’ was not declared in this scope
+[8.761s]   239 |       std::lock_guard<std::mutex> lock([01;31m[Kgoal_mutex_[m[K);
+[8.762s]       |                                        [01;31m[K^~~~~~~~~~~[m[K
+[8.771s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:240:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kactive_goal_[m[K’ was not declared in this scope
+[8.772s]   240 |       [01;31m[Kactive_goal_[m[K = nullptr;
+[8.772s]       |       [01;31m[K^~~~~~~~~~~~[m[K
+[8.787s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:248:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kfeedback_count_[m[K’ was not declared in this scope
+[8.788s]   248 |   if (++[01;31m[Kfeedback_count_[m[K % kFeedbackStride != 0) {
+[8.789s]       |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[8.804s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:248:27:[m[K [01;31m[Kerror: [m[K‘[01m[KkFeedbackStride[m[K’ was not declared in this scope
+[8.805s]   248 |   if (++feedback_count_ % [01;31m[KkFeedbackStride[m[K != 0) {
+[8.806s]       |                           [01;31m[K^~~~~~~~~~~~~~~[m[K
+[8.821s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:252:3:[m[K [01;31m[Kerror: [m[K‘[01m[KupdateFeedback[m[K’ was not declared in this scope
+[8.822s]   252 |   [01;31m[KupdateFeedback[m[K();
+[8.822s]       |   [01;31m[K^~~~~~~~~~~~~~[m[K
+[8.823s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:253:7:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+[8.824s]   253 |   goal[01;31m[K->[m[Kpublish_feedback(feedback_msg_);
+[8.825s]       |       [01;31m[K^~[m[K
+[8.835s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:253:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kfeedback_msg_[m[K’ was not declared in this scope
+[8.836s]   253 |   goal->publish_feedback([01;31m[Kfeedback_msg_[m[K);
+[8.837s]       |                          [01;31m[K^~~~~~~~~~~~~[m[K
+[8.838s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:[m[K At global scope:
+[8.838s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:260:6:[m[K [01;31m[Kerror: [m[K‘[01m[KOpenArmImpedanceController[m[K’ has not been declared
+[8.839s]   260 | void [01;31m[KOpenArmImpedanceController[m[K::interpolateTrajectory(
+[8.840s]       |      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.847s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:261:11:[m[K [01;31m[Kerror: [m[K‘[01m[KCartesianTrajectory[m[K’ does not name a type
+[8.848s]   261 |     const [01;31m[KCartesianTrajectory[m[K& traj, const rclcpp::Time& time) {
+[8.848s]       |           [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[8.849s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:[m[K In function ‘[01m[Kvoid openarm_impedance::[01;32m[KinterpolateTrajectory[m[K(const int&, const rclcpp::Time&)[m[K’:
+[8.849s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:262:29:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kpoints[m[K’ in ‘[01m[Ktraj[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+[8.850s]   262 |   const auto& points = traj.[01;31m[Kpoints[m[K;
+[8.851s]       |                             [01;31m[K^~~~~~[m[K
+[8.872s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:263:43:[m[K [01;31m[Kerror: [m[K‘[01m[Ktrajectory_start_time_[m[K’ was not declared in this scope
+[8.872s]   263 |   const rclcpp::Duration elapsed = time - [01;31m[Ktrajectory_start_time_[m[K;
+[8.873s]       |                                           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.890s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:[m[K In lambda function:
+[8.892s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:276:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kx_ref_pos_[m[K’ was not declared in this scope
+[8.893s]   276 |     [01;31m[Kx_ref_pos_[m[K    = Eigen::Vector3d(p.pose.position.x, p.pose.position.y, p.pose.position.z);
+[8.893s]       |     [01;31m[K^~~~~~~~~~[m[K
+[8.910s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:277:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kx_ref_quat_[m[K’ was not declared in this scope
+[8.910s]   277 |     [01;31m[Kx_ref_quat_[m[K   = Eigen::Quaterniond(p.pose.orientation.w, p.pose.orientation.x,
+[8.910s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[8.931s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:279:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kx_ref_linvel_[m[K’ was not declared in this scope
+[8.932s]   279 |     [01;31m[Kx_ref_linvel_[m[K = Eigen::Vector3d(p.twist.linear.x,  p.twist.linear.y,  p.twist.linear.z);
+[8.933s]       |     [01;31m[K^~~~~~~~~~~~~[m[K
+[8.952s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:280:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kx_ref_angvel_[m[K’ was not declared in this scope
+[8.953s]   280 |     [01;31m[Kx_ref_angvel_[m[K = Eigen::Vector3d(p.twist.angular.x, p.twist.angular.y, p.twist.angular.z);
+[8.954s]       |     [01;31m[K^~~~~~~~~~~~~[m[K
+[8.967s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:[m[K In function ‘[01m[Kvoid openarm_impedance::[01;32m[KinterpolateTrajectory[m[K(const int&, const rclcpp::Time&)[m[K’:
+[8.968s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:286:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kx_ref_linvel_[m[K’ was not declared in this scope
+[8.969s]   286 |     [01;31m[Kx_ref_linvel_[m[K.setZero();
+[8.969s]       |     [01;31m[K^~~~~~~~~~~~~[m[K
+[8.982s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:287:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kx_ref_angvel_[m[K’ was not declared in this scope
+[8.983s]   287 |     [01;31m[Kx_ref_angvel_[m[K.setZero();
+[8.984s]       |     [01;31m[K^~~~~~~~~~~~~[m[K
+[8.994s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:297:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kx_ref_pos_[m[K’ was not declared in this scope
+[8.995s]   297 |     [01;31m[Kx_ref_pos_[m[K =
+[8.996s]       |     [01;31m[K^~~~~~~~~~[m[K
+[9.006s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:301:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kx_ref_quat_[m[K’ was not declared in this scope
+[9.007s]   301 |     [01;31m[Kx_ref_quat_[m[K =
+[9.008s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[9.021s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:308:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kx_ref_linvel_[m[K’ was not declared in this scope
+[9.022s]   308 |     [01;31m[Kx_ref_linvel_[m[K =
+[9.023s]       |     [01;31m[K^~~~~~~~~~~~~[m[K
+[9.035s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:312:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kx_ref_angvel_[m[K’ was not declared in this scope
+[9.036s]   312 |     [01;31m[Kx_ref_angvel_[m[K =
+[9.037s]       |     [01;31m[K^~~~~~~~~~~~~[m[K
+[9.037s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:[m[K At global scope:
+[9.038s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:318:6:[m[K [01;31m[Kerror: [m[K‘[01m[KOpenArmImpedanceController[m[K’ has not been declared
+[9.039s]   318 | void [01;31m[KOpenArmImpedanceController[m[K::updateFeedback() {
+[9.040s]       |      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.048s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:[m[K In function ‘[01m[Kvoid openarm_impedance::[01;32m[KupdateFeedback[m[K()[m[K’:
+[9.049s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:320:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kfeedback_msg_[m[K’ was not declared in this scope
+[9.050s]   320 |   [01;31m[Kfeedback_msg_[m[K->desired.pose.position.x    = x_ref_pos_.x();
+[9.050s]       |   [01;31m[K^~~~~~~~~~~~~[m[K
+[9.059s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:320:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kx_ref_pos_[m[K’ was not declared in this scope
+[9.060s]   320 |   feedback_msg_->desired.pose.position.x    = [01;31m[Kx_ref_pos_[m[K.x();
+[9.061s]       |                                               [01;31m[K^~~~~~~~~~[m[K
+[9.070s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:323:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kx_ref_quat_[m[K’ was not declared in this scope
+[9.072s]   323 |   feedback_msg_->desired.pose.orientation.w = [01;31m[Kx_ref_quat_[m[K.w();
+[9.073s]       |                                               [01;31m[K^~~~~~~~~~~[m[K
+[9.084s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:327:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kx_ref_linvel_[m[K’ was not declared in this scope
+[9.085s]   327 |   feedback_msg_->desired.twist.linear.x     = [01;31m[Kx_ref_linvel_[m[K.x();
+[9.086s]       |                                               [01;31m[K^~~~~~~~~~~~~[m[K
+[9.098s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:330:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kx_ref_angvel_[m[K’ was not declared in this scope
+[9.099s]   330 |   feedback_msg_->desired.twist.angular.x    = [01;31m[Kx_ref_angvel_[m[K.x();
+[9.100s]       |                                               [01;31m[K^~~~~~~~~~~~~[m[K
+[9.121s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:335:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kimpedance_controller_[m[K’ was not declared in this scope
+[9.122s]   335 |   const Eigen::Vector3d    actual_pos  = [01;31m[Kimpedance_controller_[m[K->getPose();
+[9.123s]       |                                          [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[9.124s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:[m[K At global scope:
+[9.124s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:363:29:[m[K [01;31m[Kerror: [m[K‘[01m[KOpenArmImpedanceController[m[K’ has not been declared
+[9.125s]   363 | rclcpp_action::GoalResponse [01;31m[KOpenArmImpedanceController[m[K::onGoalRequest(
+[9.125s]       |                             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.126s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:365:58:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Ktype name[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[9.126s]   365 |     std::shared_ptr<const FollowCartesianTrajectoryAction[01;31m[K::[m[KGoal> goal) {
+[9.126s]       |                                                          [01;31m[K^~[m[K
+[9.127s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:365:64:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[9.127s]   365 |     std::shared_ptr<const FollowCartesianTrajectoryAction::Goal[01;31m[K>[m[K goal) {
+[9.128s]       |                                                                [01;31m[K^[m[K
+[9.129s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:365:58:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Ktype name[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[9.129s]   365 |     std::shared_ptr<const FollowCartesianTrajectoryAction[01;31m[K::[m[KGoal> goal) {
+[9.130s]       |                                                          [01;31m[K^~[m[K
+[9.130s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:365:64:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[9.130s]   365 |     std::shared_ptr<const FollowCartesianTrajectoryAction::Goal[01;31m[K>[m[K goal) {
+[9.131s]       |                                                                [01;31m[K^[m[K
+[9.131s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:365:58:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Ktype name[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[9.132s]   365 |     std::shared_ptr<const FollowCartesianTrajectoryAction[01;31m[K::[m[KGoal> goal) {
+[9.132s]       |                                                          [01;31m[K^~[m[K
+[9.133s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:365:64:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[9.134s]   365 |     std::shared_ptr<const FollowCartesianTrajectoryAction::Goal[01;31m[K>[m[K goal) {
+[9.134s]       |                                                                [01;31m[K^[m[K
+[9.135s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:365:5:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+[9.135s]   365 |     [01;31m[Kstd[m[K::shared_ptr<const FollowCartesianTrajectoryAction::Goal> goal) {
+[9.136s]       |     [01;31m[K^~~[m[K
+[9.136s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:365:58:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Ktype name[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[9.137s]   365 |     std::shared_ptr<const FollowCartesianTrajectoryAction[01;31m[K::[m[KGoal> goal) {
+[9.137s]       |                                                          [01;31m[K^~[m[K
+[9.138s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:365:21:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kconst[m[K’
+[9.138s]   365 |     std::shared_ptr<[01;31m[Kconst[m[K FollowCartesianTrajectoryAction::Goal> goal) {
+[9.138s]       |                     [01;31m[K^~~~~[m[K
+[9.139s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:365:21:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K>[m[K’ before ‘[01m[Kconst[m[K’
+[9.139s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:365:5:[m[K [01;31m[Kerror: [m[Kmissing template argument list after ‘[01m[Kstd::shared_ptr[m[K’; template placeholder not permitted in parameter
+[9.140s]   365 |     [01;31m[Kstd[m[K::shared_ptr<const FollowCartesianTrajectoryAction::Goal> goal) {
+[9.140s]       |     [01;31m[K^~~[m[K
+[9.141s]       |        [32m[K<>[m[K
+[9.141s] In file included from [01m[K/usr/include/c++/13/bits/shared_ptr.h:53[m[K:
+[9.141s] [01m[K/usr/include/c++/13/bits/shared_ptr_base.h:395:11:[m[K [01;36m[Knote: [m[K‘[01m[Ktemplate<class _Tp> class std::shared_ptr[m[K’ declared here
+[9.142s]   395 |     class [01;36m[Kshared_ptr[m[K;
+[9.142s]       |           [01;36m[K^~~~~~~~~~[m[K
+[9.143s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:[m[K In function ‘[01m[Krclcpp_action::GoalResponse openarm_impedance::[01;32m[KonGoalRequest[m[K(...)[m[K’:
+[9.143s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:366:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal[m[K’ was not declared in this scope; did you mean ‘[01m[Kcoal[m[K’?
+[9.143s]   366 |   if ([01;31m[Kgoal[m[K->trajectory.points.empty()) {
+[9.144s]       |       [01;31m[K^~~~[m[K
+[9.144s]       |       [32m[Kcoal[m[K
+[9.144s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:367:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_node[m[K’ was not declared in this scope
+[9.145s]   367 |     RCLCPP_WARN([01;31m[Kget_node[m[K()->get_logger(), "Rejected empty trajectory");
+[9.145s]       |                 [01;31m[K^~~~~~~~[m[K
+[9.145s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:367:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[9.146s]   367 |     [01;31m[KRCLCPP_WARN[m[K(get_node()->get_logger(), "Rejected empty trajectory");
+[9.146s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[9.146s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:[m[K At global scope:
+[9.147s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:373:31:[m[K [01;31m[Kerror: [m[K‘[01m[KOpenArmImpedanceController[m[K’ has not been declared
+[9.147s]   373 | rclcpp_action::CancelResponse [01;31m[KOpenArmImpedanceController[m[K::onCancelRequest(
+[9.148s]       |                               [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.149s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:374:21:[m[K [01;31m[Kerror: [m[K‘[01m[KGoalHandle[m[K’ was not declared in this scope
+[9.150s]   374 |     std::shared_ptr<[01;31m[KGoalHandle[m[K> /* goal_handle */) {
+[9.150s]       |                     [01;31m[K^~~~~~~~~~[m[K
+[9.150s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:374:31:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[9.151s]   374 |     std::shared_ptr<GoalHandle[01;31m[K>[m[K /* goal_handle */) {
+[9.151s]       |                               [01;31m[K^[m[K
+[9.151s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:379:6:[m[K [01;31m[Kerror: [m[K‘[01m[KOpenArmImpedanceController[m[K’ has not been declared
+[9.152s]   379 | void [01;31m[KOpenArmImpedanceController[m[K::onGoalAccepted(std::shared_ptr<GoalHandle> goal_handle) {
+[9.152s]       |      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.159s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:379:65:[m[K [01;31m[Kerror: [m[K‘[01m[KGoalHandle[m[K’ was not declared in this scope
+[9.160s]   379 | void OpenArmImpedanceController::onGoalAccepted(std::shared_ptr<[01;31m[KGoalHandle[m[K> goal_handle) {
+[9.160s]       |                                                                 [01;31m[K^~~~~~~~~~[m[K
+[9.160s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:379:75:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[9.161s]   379 | void OpenArmImpedanceController::onGoalAccepted(std::shared_ptr<GoalHandle[01;31m[K>[m[K goal_handle) {
+[9.161s]       |                                                                           [01;31m[K^[m[K
+[9.171s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:[m[K In function ‘[01m[Kvoid openarm_impedance::[01;32m[KonGoalAccepted[m[K(int)[m[K’:
+[9.172s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:380:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_mutex_[m[K’ was not declared in this scope
+[9.172s]   380 |   std::lock_guard<std::mutex> lock([01;31m[Kgoal_mutex_[m[K);
+[9.173s]       |                                    [01;31m[K^~~~~~~~~~~[m[K
+[9.184s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:381:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kactive_goal_[m[K’ was not declared in this scope
+[9.185s]   381 |   if ([01;31m[Kactive_goal_[m[K) {
+[9.185s]       |       [01;31m[K^~~~~~~~~~~~[m[K
+[9.218s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:382:36:[m[K [01;31m[Kerror: [m[K‘[01m[KFollowCartesianTrajectoryAction[m[K’ was not declared in this scope
+[9.219s]   382 |     auto result = std::make_shared<[01;31m[KFollowCartesianTrajectoryAction[m[K::Result>();
+[9.220s]       |                                    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.220s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:382:24:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[9.221s]   382 |     auto result = std::[01;31m[Kmake_shared<FollowCartesianTrajectoryAction::Result>[m[K();
+[9.221s]       |                        [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.222s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:382:76:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+[9.223s]   382 |     auto result = [01;31m[Kstd::make_shared<FollowCartesianTrajectoryAction::Result>()[m[K;
+[9.223s]       |                   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[9.224s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:1005:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<typename std::enable_if<(! std::is_array< <template-parameter-1-1> >::value), _Tp>::type> std::[01;32m[Kmake_shared[m[K(_Args&& ...)[m[K’
+[9.224s]  1005 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+[9.225s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[9.225s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:1005:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[9.226s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:382:76:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[9.226s]   382 |     auto result = [01;31m[Kstd::make_shared<FollowCartesianTrajectoryAction::Result>()[m[K;
+[9.227s]       |                   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[9.227s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:383:26:[m[K [01;31m[Kerror: [m[K‘[01m[KFollowCartesianTrajectoryAction[m[K’ is not a class, namespace, or enumeration
+[9.228s]   383 |     result->error_code = [01;31m[KFollowCartesianTrajectoryAction[m[K::Result::INVALID_GOAL;
+[9.228s]       |                          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.242s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:387:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ktrajectory_start_time_[m[K’ was not declared in this scope
+[9.243s]   387 |   [01;31m[Ktrajectory_start_time_[m[K = get_node()->get_clock()->now();
+[9.244s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.252s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:387:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_node[m[K’ was not declared in this scope
+[9.253s]   387 |   trajectory_start_time_ = [01;31m[Kget_node[m[K()->get_clock()->now();
+[9.253s]       |                            [01;31m[K^~~~~~~~[m[K
+[9.266s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:388:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kactive_goal_[m[K’ was not declared in this scope
+[9.267s]   388 |   [01;31m[Kactive_goal_[m[K = goal_handle;
+[9.267s]       |   [01;31m[K^~~~~~~~~~~~[m[K
+[9.284s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:390:32:[m[K [01;31m[Kerror: [m[K‘[01m[KCartesianTrajectory[m[K’ was not declared in this scope
+[9.285s]   390 |   auto traj = std::make_shared<[01;31m[KCartesianTrajectory[m[K>(goal_handle->get_goal()->trajectory);
+[9.286s]       |                                [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[9.287s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:390:64:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+[9.287s]   390 |   auto traj = std::make_shared<CartesianTrajectory>(goal_handle[01;31m[K->[m[Kget_goal()->trajectory);
+[9.288s]       |                                                                [01;31m[K^~[m[K
+[9.289s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:391:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kcartesian_control_msgs[m[K’ has not been declared
+[9.289s]   391 |   [01;31m[Kcartesian_control_msgs[m[K::msg::CartesianTrajectoryPoint start_pt;
+[9.290s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.292s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:393:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kstart_pt[m[K’ was not declared in this scope
+[9.293s]   393 |   [01;31m[Kstart_pt[m[K.pose.position.x    = x_ref_pos_.x();
+[9.294s]       |   [01;31m[K^~~~~~~~[m[K
+[9.304s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:393:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kx_ref_pos_[m[K’ was not declared in this scope
+[9.304s]   393 |   start_pt.pose.position.x    = [01;31m[Kx_ref_pos_[m[K.x();
+[9.305s]       |                                 [01;31m[K^~~~~~~~~~[m[K
+[9.315s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:396:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kx_ref_quat_[m[K’ was not declared in this scope
+[9.316s]   396 |   start_pt.pose.orientation.w = [01;31m[Kx_ref_quat_[m[K.w();
+[9.317s]       |                                 [01;31m[K^~~~~~~~~~~[m[K
+[9.333s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:402:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ktrajectory_buffer_[m[K’ was not declared in this scope
+[9.335s]   402 |   [01;31m[Ktrajectory_buffer_[m[K.writeFromNonRT(traj);
+[9.336s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[9.337s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:[m[K At global scope:
+[9.337s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:408:1:[m[K [01;31m[Kerror: [m[K‘[01m[KOpenArmImpedanceController[m[K’ has not been declared
+[9.338s]   408 | [01;31m[KOpenArmImpedanceController[m[K::onParameterChange(const std::vector<rclcpp::Parameter>& params) {
+[9.339s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.358s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:[m[K In function ‘[01m[Krcl_interfaces::msg::SetParametersResult openarm_impedance::[01;32m[KonParameterChange[m[K(const std::vector<rclcpp::Parameter>&)[m[K’:
+[9.359s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:413:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kimpedance_controller_[m[K’ was not declared in this scope
+[9.359s]   413 |       [01;31m[Kimpedance_controller_[m[K->setStiffness(p.as_double_array());
+[9.360s]       |       [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[9.384s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:415:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kimpedance_controller_[m[K’ was not declared in this scope
+[9.384s]   415 |       [01;31m[Kimpedance_controller_[m[K->setDamping(p.as_double_array());
+[9.385s]       |       [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[9.386s] In file included from [01m[K/opt/ros/jazzy/include/class_loader/class_loader/class_loader.hpp:56[m[K,
+[9.387s]                  from [01m[K/opt/ros/jazzy/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+[9.388s]                  from [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:3[m[K:
+[9.388s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:[m[K At global scope:
+[9.389s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:426:22:[m[K [01;31m[Kerror: [m[K‘[01m[KOpenArmImpedanceController[m[K’ in namespace ‘[01m[Kopenarm_impedance[m[K’ does not name a type
+[9.390s]   426 |   openarm_impedance::[01;31m[KOpenArmImpedanceController[m[K,
+[9.391s]       |                      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.402s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:[m[K In constructor ‘[01m[K{anonymous}::ProxyExec0::[01;32m[KProxyExec0[m[K()[m[K’:
+[9.403s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:425:1:[m[K [01;31m[Kerror: [m[K‘[01m[K_derived[m[K’ was not declared in this scope
+[9.403s]   425 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(
+[9.404s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.405s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:425:1:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KregisterPlugin<<expression error>, {anonymous}::ProxyExec0::_base>(const char [46], const char [42])[m[K’
+[9.406s]   425 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(
+[9.406s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.407s] In file included from [01m[K/opt/ros/jazzy/include/class_loader/class_loader/class_loader.hpp:55[m[K:
+[9.408s] [01m[K/opt/ros/jazzy/include/class_loader/class_loader/class_loader_core.hpp:241:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Derived, class Base> class_loader::impl::UniquePtr<class_loader::impl::AbstractMetaObjectBase> class_loader::impl::[01;32m[KregisterPlugin[m[K(const std::string&, const std::string&)[m[K’
+[9.408s]   241 | [01;36m[KregisterPlugin[m[K(const std::string & class_name, const std::string & base_class_name)
+[9.409s]       | [01;36m[K^~~~~~~~~~~~~~[m[K
+[9.410s] [01m[K/opt/ros/jazzy/include/class_loader/class_loader/class_loader_core.hpp:241:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[9.411s] [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:425:1:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[9.411s]   425 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(
+[9.412s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.972s] gmake[2]: *** [CMakeFiles/openarm_impedance.dir/build.make:76: CMakeFiles/openarm_impedance.dir/src/impedance.cpp.o] Error 1
+[9.973s] gmake[2]: *** Waiting for unfinished jobs....
+[12.275s] gmake[2]: *** [CMakeFiles/openarm_impedance.dir/build.make:90: CMakeFiles/openarm_impedance.dir/src/openarm_impedance_controller.cpp.o] Error 1
+[12.276s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/openarm_impedance.dir/all] Error 2
+[12.276s] gmake: *** [Makefile:146: all] Error 2
+[12.281s] Invoked command in '/openarm_ws/src/build/openarm_impedance' returned '2': AMENT_PREFIX_PATH=/openarm_ws/src/install/rosbag_recorder:/openarm_ws/src/install/openarm_hardware:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/openarm_ws/src/install/openarm_hardware:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/openarm_ws/src/install/openarm_hardware/lib:${LD_LIBRARY_PATH} PYTHONPATH=/openarm_ws/src/install/rosbag_recorder/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /openarm_ws/src/build/openarm_impedance -- -j14 -l14

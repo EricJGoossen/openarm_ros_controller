@@ -1,0 +1,10 @@
+{
+  "package_name": "cartesian_control_msgs",
+  "non_idl_tuples": [
+    "/openarm_ws/src/cartesian_control_msgs:action/FollowCartesianTrajectory.action",
+    "/openarm_ws/src/cartesian_control_msgs:msg/CartesianPosture.msg",
+    "/openarm_ws/src/cartesian_control_msgs:msg/CartesianTolerance.msg",
+    "/openarm_ws/src/cartesian_control_msgs:msg/CartesianTrajectory.msg",
+    "/openarm_ws/src/cartesian_control_msgs:msg/CartesianTrajectoryPoint.msg"
+  ]
+}

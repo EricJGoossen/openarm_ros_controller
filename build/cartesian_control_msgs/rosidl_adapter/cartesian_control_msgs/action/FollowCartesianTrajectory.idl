@@ -1,0 +1,50 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from cartesian_control_msgs/action/FollowCartesianTrajectory.action
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Duration.idl"
+#include "cartesian_control_msgs/msg/CartesianTolerance.idl"
+#include "cartesian_control_msgs/msg/CartesianTrajectory.idl"
+#include "cartesian_control_msgs/msg/CartesianTrajectoryPoint.idl"
+#include "std_msgs/msg/Header.idl"
+
+module cartesian_control_msgs {
+  module action {
+    struct FollowCartesianTrajectory_Goal {
+      cartesian_control_msgs::msg::CartesianTrajectory trajectory;
+
+      cartesian_control_msgs::msg::CartesianTolerance path_tolerance;
+
+      cartesian_control_msgs::msg::CartesianTolerance goal_tolerance;
+
+      builtin_interfaces::msg::Duration goal_time_tolerance;
+    };
+    module FollowCartesianTrajectory_Result_Constants {
+      const int32 SUCCESSFUL = 0;
+      @verbatim (language="comment", text=
+        "e.g. illegal quaternions in poses")
+      const int32 INVALID_GOAL = -1;
+      const int32 INVALID_JOINTS = -2;
+      const int32 OLD_HEADER_TIMESTAMP = -3;
+      const int32 PATH_TOLERANCE_VIOLATED = -4;
+      const int32 GOAL_TOLERANCE_VIOLATED = -5;
+      const int32 INVALID_POSTURE = -6;
+    };
+    struct FollowCartesianTrajectory_Result {
+      int32 error_code;
+
+      string error_string;
+    };
+    struct FollowCartesianTrajectory_Feedback {
+      std_msgs::msg::Header header;
+
+      string controlled_frame;
+
+      cartesian_control_msgs::msg::CartesianTrajectoryPoint desired;
+
+      cartesian_control_msgs::msg::CartesianTrajectoryPoint actual;
+
+      cartesian_control_msgs::msg::CartesianTrajectoryPoint error;
+    };
+  };
+};

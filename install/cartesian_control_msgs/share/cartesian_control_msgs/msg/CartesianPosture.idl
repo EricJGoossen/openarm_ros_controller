@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from cartesian_control_msgs/msg/CartesianPosture.msg
+// generated code does not contain a copyright notice
+
+
+module cartesian_control_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "Posture joint names may reflect a subset of all available joints (empty posture definitions are" "\n"
+      "also possible). The length of posture_joint_names and posture_joint_values have to be equal.")
+    struct CartesianPosture {
+      sequence<string> posture_joint_names;
+
+      sequence<double> posture_joint_values;
+    };
+  };
+};

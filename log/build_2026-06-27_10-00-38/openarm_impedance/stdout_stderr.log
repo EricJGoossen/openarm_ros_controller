@@ -1,0 +1,23 @@
+[ 33%] [32mBuilding CXX object CMakeFiles/openarm_impedance.dir/src/openarm_impedance_controller.cpp.o[0m
+[01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::return_type openarm_impedance_control::OpenArmImpedanceController::[01;32m[Kupdate[m[K(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:204:17:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kopenarm_impedance_control::OpenArmImpedanceController::updateFeedback(Eigen::VectorXd&, Eigen::VectorXd&)[m[K’
+  204 |   [01;31m[KupdateFeedback(q, dq)[m[K;
+      |   [01;31m[K~~~~~~~~~~~~~~^~~~~~~[m[K
+In file included from [01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:1[m[K:
+[01m[K/openarm_ws/src/openarm_impedance_control/include/openarm_impedance_control/openarm_impedance_controller.hpp:76:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid openarm_impedance_control::OpenArmImpedanceController::[01;32m[KupdateFeedback[m[K()[m[K’
+   76 |   void [01;36m[KupdateFeedback[m[K();
+      |        [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/openarm_ws/src/openarm_impedance_control/include/openarm_impedance_control/openarm_impedance_controller.hpp:76:8:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:[m[K At global scope:
+[01m[K/openarm_ws/src/openarm_impedance_control/src/openarm_impedance_controller.cpp:248:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid openarm_impedance_control::OpenArmImpedanceController::[01;32m[KupdateFeedback[m[K(const Eigen::VectorXd&, const Eigen::VectorXd&)[m[K’
+  248 | void [01;31m[KOpenArmImpedanceController[m[K::updateFeedback(
+      |      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/openarm_ws/src/openarm_impedance_control/include/openarm_impedance_control/openarm_impedance_controller.hpp:76:8:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kvoid openarm_impedance_control::OpenArmImpedanceController::[01;32m[KupdateFeedback[m[K()[m[K’
+   76 |   void [01;36m[KupdateFeedback[m[K();
+      |        [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/openarm_ws/src/openarm_impedance_control/include/openarm_impedance_control/openarm_impedance_controller.hpp:22:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass openarm_impedance_control::OpenArmImpedanceController[m[K’ defined here
+   22 | class [01;36m[KOpenArmImpedanceController[m[K : public controller_interface::ControllerInterface {
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/openarm_impedance.dir/build.make:90: CMakeFiles/openarm_impedance.dir/src/openarm_impedance_controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/openarm_impedance.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

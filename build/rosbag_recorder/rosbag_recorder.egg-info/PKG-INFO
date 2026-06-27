@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: rosbag-recorder
+Version: 0.0.1
+Summary: TODO: Package description
+Maintainer: root
+Maintainer-email: ericjgoossen@gmail.com
+License: TODO: License declaration
+Provides-Extra: test

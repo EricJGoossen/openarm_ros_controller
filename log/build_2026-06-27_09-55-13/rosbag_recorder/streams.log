@@ -1,0 +1,21 @@
+[0.635s] Invoking command in '/openarm_ws/src/rosbag_recorder': PYTHONPATH=/openarm_ws/src/build/rosbag_recorder/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/openarm_ws/src/install/rosbag_recorder/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/rosbag_recorder build --build-base /openarm_ws/src/build/rosbag_recorder/build install --record /openarm_ws/src/build/rosbag_recorder/install.log --single-version-externally-managed install_data
+[0.795s] running egg_info
+[0.805s] writing ../build/rosbag_recorder/rosbag_recorder.egg-info/PKG-INFO
+[0.805s] writing dependency_links to ../build/rosbag_recorder/rosbag_recorder.egg-info/dependency_links.txt
+[0.805s] writing entry points to ../build/rosbag_recorder/rosbag_recorder.egg-info/entry_points.txt
+[0.806s] writing requirements to ../build/rosbag_recorder/rosbag_recorder.egg-info/requires.txt
+[0.806s] writing top-level names to ../build/rosbag_recorder/rosbag_recorder.egg-info/top_level.txt
+[0.826s] reading manifest file '../build/rosbag_recorder/rosbag_recorder.egg-info/SOURCES.txt'
+[0.826s] writing manifest file '../build/rosbag_recorder/rosbag_recorder.egg-info/SOURCES.txt'
+[0.827s] running build
+[0.828s] running build_py
+[0.828s] running install
+[0.833s] running install_lib
+[0.842s] running install_data
+[0.843s] running install_egg_info
+[0.854s] removing '/openarm_ws/src/install/rosbag_recorder/lib/python3.12/site-packages/rosbag_recorder-0.0.1-py3.12.egg-info' (and everything under it)
+[0.854s] Copying ../build/rosbag_recorder/rosbag_recorder.egg-info to /openarm_ws/src/install/rosbag_recorder/lib/python3.12/site-packages/rosbag_recorder-0.0.1-py3.12.egg-info
+[0.854s] running install_scripts
+[0.934s] Installing recorder_node script to /openarm_ws/src/install/rosbag_recorder/lib/rosbag_recorder
+[0.935s] writing list of installed files to '/openarm_ws/src/build/rosbag_recorder/install.log'
+[0.965s] Invoked command in '/openarm_ws/src/rosbag_recorder' returned '0': PYTHONPATH=/openarm_ws/src/build/rosbag_recorder/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/openarm_ws/src/install/rosbag_recorder/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/rosbag_recorder build --build-base /openarm_ws/src/build/rosbag_recorder/build install --record /openarm_ws/src/build/rosbag_recorder/install.log --single-version-externally-managed install_data

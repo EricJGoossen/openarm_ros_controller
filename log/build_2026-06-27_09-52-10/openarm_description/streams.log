@@ -1,0 +1,270 @@
+[0.017s] Invoking command in '/openarm_ws/src/build/openarm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /openarm_ws/src/openarm_description -DCMAKE_INSTALL_PREFIX=/openarm_ws/src/install/openarm_description
+[0.189s] -- The C compiler identification is GNU 13.3.0
+[0.189s] -- The CXX compiler identification is GNU 13.3.0
+[0.189s] -- Detecting C compiler ABI info
+[0.286s] -- Detecting C compiler ABI info - done
+[0.305s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.306s] -- Detecting C compile features
+[0.306s] -- Detecting C compile features - done
+[0.323s] -- Detecting CXX compiler ABI info
+[0.449s] -- Detecting CXX compiler ABI info - done
+[0.467s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.467s] -- Detecting CXX compile features
+[0.467s] -- Detecting CXX compile features - done
+[0.474s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.649s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.779s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.938s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.938s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.942s] -- Added test 'lint_cmake' to check CMake code style
+[0.946s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.959s] -- Added test 'xmllint' to check XML markup files
+[0.960s] -- Configuring done (0.9s)
+[0.965s] -- Generating done (0.0s)
+[0.969s] -- Build files have been written to: /openarm_ws/src/build/openarm_description
+[0.983s] Invoked command in '/openarm_ws/src/build/openarm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /openarm_ws/src/openarm_description -DCMAKE_INSTALL_PREFIX=/openarm_ws/src/install/openarm_description
+[0.991s] Invoking command in '/openarm_ws/src/build/openarm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /openarm_ws/src/build/openarm_description -- -j14 -l14
+[1.046s] Invoked command in '/openarm_ws/src/build/openarm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /openarm_ws/src/build/openarm_description -- -j14 -l14
+[1.060s] Invoking command in '/openarm_ws/src/build/openarm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /openarm_ws/src/build/openarm_description
+[1.072s] -- Install configuration: ""
+[1.073s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets
+[1.074s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot
+[1.075s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v1.0
+[1.076s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v1.0/config
+[1.077s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v1.0/config/arm
+[1.077s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v1.0/config/arm/kinematics.yaml
+[1.078s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v1.0/config/arm/kinematics_link.yaml
+[1.079s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v1.0/config/arm/inertials.yaml
+[1.080s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v1.0/config/arm/control_gains.yaml
+[1.082s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v1.0/config/arm/joint_limits.yaml
+[1.082s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v1.0/config/arm/kinematics_offset.yaml
+[1.083s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v1.0/config/body
+[1.084s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v1.0/config/body/kinematics.yaml
+[1.086s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v1.0/config/body/kinematics_link.yaml
+[1.088s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v1.0/config/body/inertials.yaml
+[1.089s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v1.0/mesh
+[1.090s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v1.0/mesh/arm
+[1.091s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v1.0/mesh/arm/visual
+[1.092s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v1.0/mesh/arm/visual/link0.stl
+[1.093s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v1.0/mesh/arm/visual/link4.dae
+[1.095s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v1.0/mesh/arm/visual/link0.dae
+[1.095s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v1.0/mesh/arm/visual/link1.dae
+[1.096s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v1.0/mesh/arm/visual/link2.dae
+[1.096s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v1.0/mesh/arm/visual/link6.dae
+[1.098s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v1.0/mesh/arm/visual/link7.dae
+[1.102s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v1.0/mesh/arm/visual/link7.stl
+[1.106s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v1.0/mesh/arm/visual/link3.dae
+[1.111s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v1.0/mesh/arm/visual/link4.stl
+[1.114s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v1.0/mesh/arm/visual/link6.stl
+[1.119s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v1.0/mesh/arm/visual/link2.stl
+[1.122s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v1.0/mesh/arm/visual/link5.stl
+[1.131s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v1.0/mesh/arm/visual/link5.dae
+[1.133s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v1.0/mesh/arm/visual/link1.stl
+[1.138s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v1.0/mesh/arm/visual/link3.stl
+[1.142s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v1.0/mesh/arm/collision
+[1.143s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v1.0/mesh/arm/collision/link3_symp.stl
+[1.143s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v1.0/mesh/arm/collision/link6_symp.stl
+[1.143s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v1.0/mesh/arm/collision/link0_symp.stl
+[1.143s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v1.0/mesh/arm/collision/link4_symp.stl
+[1.143s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v1.0/mesh/arm/collision/link1_symp.stl
+[1.144s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v1.0/mesh/arm/collision/link5_symp.stl
+[1.147s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v1.0/mesh/arm/collision/link2_symp.stl
+[1.147s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v1.0/mesh/arm/collision/link7_symp.stl
+[1.147s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v1.0/mesh/body
+[1.147s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v1.0/mesh/body/visual
+[1.147s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v1.0/mesh/body/visual/body_link0.stl
+[1.150s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v1.0/mesh/body/visual/body_link0.dae
+[1.158s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v1.0/mesh/body/collision
+[1.158s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v1.0/mesh/body/collision/body_link0_symp.stl
+[1.159s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v1.0/urdf
+[1.159s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v1.0/urdf/arm
+[1.159s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v1.0/urdf/arm/openarm_macro.xacro
+[1.159s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v1.0/urdf/arm/openarm_arm.xacro
+[1.159s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v1.0/urdf/ee
+[1.159s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v1.0/urdf/ee/openarm_ee_macro.xacro
+[1.159s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v1.0/urdf/ee/parallel_link
+[1.159s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v1.0/urdf/ee/parallel_link/openarm_parallel_gripper.xacro
+[1.159s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v1.0/urdf/ee/ee_dispatcher.xacro
+[1.159s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v1.0/urdf/ee/pinch_gripper
+[1.159s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v1.0/urdf/ee/pinch_gripper/openarm_v20_pinch_gripper.xacro
+[1.160s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v1.0/urdf/robot
+[1.160s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v1.0/urdf/robot/openarm_robot.xacro
+[1.160s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v1.0/urdf/openarm_v10.urdf.xacro
+[1.160s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v1.0/urdf/ros2_control
+[1.160s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v1.0/urdf/ros2_control/openarm.bimanual.ros2_control.xacro
+[1.160s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v1.0/urdf/ros2_control/openarm.ros2_control.xacro
+[1.160s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v1.0/urdf/example
+[1.160s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v1.0/urdf/example/v1.urdf
+[1.160s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v1.0/urdf/body
+[1.160s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v1.0/urdf/body/openarm_body.xacro
+[1.160s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v1.0/urdf/body/openarm_body_macro.xacro
+[1.160s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v2.0
+[1.160s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v2.0/config
+[1.160s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v2.0/config/arm
+[1.161s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v2.0/config/arm/struct
+[1.161s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v2.0/config/arm/struct/topology.yaml
+[1.161s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v2.0/config/arm/struct/reference_points.yaml
+[1.161s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v2.0/config/arm/struct/name_mapping.yaml
+[1.161s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v2.0/config/arm/meta.md
+[1.161s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v2.0/config/arm/inertials
+[1.161s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v2.0/config/arm/inertials/nominal.yaml
+[1.161s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v2.0/config/arm/joint
+[1.161s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v2.0/config/arm/joint/joint_origins.yaml
+[1.161s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v2.0/config/arm/joint/joint_limits.yaml
+[1.161s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v2.0/config/arm/joint/joint_axes.yaml
+[1.161s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v2.0/config/arm/control
+[1.162s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v2.0/config/arm/control/friction.yaml
+[1.162s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v2.0/config/arm/link
+[1.162s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v2.0/config/arm/link/visuals.yaml
+[1.162s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v2.0/config/arm/link/collisions.yaml
+[1.162s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v2.0/config/meta.md
+[1.162s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v2.0/config/robot_presets
+[1.162s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v2.0/config/robot_presets/default_bimanual.yaml
+[1.162s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v2.0/config/robot_presets/left_arm_with_pinch_gripper.yaml
+[1.162s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v2.0/config/robot_presets/right_arm.yaml
+[1.162s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v2.0/config/robot_presets/left_arm.yaml
+[1.162s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v2.0/config/robot_presets/right_arm_with_pinch_gripper.yaml
+[1.162s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v2.0/config/body
+[1.162s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v2.0/config/body/struct
+[1.162s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v2.0/config/body/struct/topology.yaml
+[1.162s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v2.0/config/body/struct/reference_points.yaml
+[1.163s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v2.0/config/body/meta.md
+[1.163s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v2.0/config/body/inertials
+[1.163s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v2.0/config/body/inertials/nominal.yaml
+[1.163s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v2.0/config/body/link
+[1.163s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v2.0/config/body/link/visuals.yaml
+[1.163s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v2.0/config/body/link/collisions.yaml
+[1.163s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v2.0/meshes
+[1.163s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v2.0/meshes/arm
+[1.163s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v2.0/meshes/arm/meta.md
+[1.163s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v2.0/meshes/arm/visual
+[1.163s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v2.0/meshes/arm/visual/link4.dae
+[1.163s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v2.0/meshes/arm/visual/link1.dae
+[1.163s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v2.0/meshes/arm/visual/link2.dae
+[1.164s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v2.0/meshes/arm/visual/link6.dae
+[1.165s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v2.0/meshes/arm/visual/link3.dae
+[1.166s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v2.0/meshes/arm/visual/base_link.dae
+[1.166s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v2.0/meshes/arm/visual/link5.dae
+[1.167s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v2.0/meshes/arm/collision
+[1.167s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v2.0/meshes/arm/collision/link4.stl
+[1.167s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v2.0/meshes/arm/collision/link6.stl
+[1.167s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v2.0/meshes/arm/collision/link2.stl
+[1.167s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v2.0/meshes/arm/collision/link5.stl
+[1.167s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v2.0/meshes/arm/collision/base_link.stl
+[1.167s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v2.0/meshes/arm/collision/link1.stl
+[1.167s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v2.0/meshes/arm/collision/link3.stl
+[1.167s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v2.0/meshes/arm/collision/splited
+[1.168s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v2.0/meshes/arm/collision/splited/link5
+[1.168s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v2.0/meshes/arm/collision/splited/link5/link5_00.stl
+[1.168s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v2.0/meshes/arm/collision/splited/link5/link5_01.stl
+[1.168s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v2.0/meshes/arm/collision/splited/link5/link5_02.stl
+[1.168s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v2.0/meshes/body
+[1.168s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v2.0/meshes/body/meta.md
+[1.168s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v2.0/meshes/body/visual
+[1.168s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v2.0/meshes/body/visual/body_link0.stl
+[1.174s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v2.0/meshes/body/visual/body_link0.dae
+[1.182s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v2.0/meshes/body/collision
+[1.182s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v2.0/meshes/body/collision/body_link0_symp.stl
+[1.182s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v2.0/urdf
+[1.182s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v2.0/urdf/openarm_v20.urdf.xacro
+[1.182s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v2.0/urdf/utils
+[1.182s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v2.0/urdf/utils/openarm_v20_ee.xacro
+[1.183s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v2.0/urdf/utils/openarm_v20_sensor.xacro
+[1.183s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v2.0/urdf/utils/openarm_v20_utils.xacro
+[1.183s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v2.0/urdf/utils/openarm_v20_arm.xacro
+[1.183s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v2.0/urdf/utils/openarm_v20_robot.xacro
+[1.183s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v2.0/urdf/ros2_control
+[1.183s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v2.0/urdf/ros2_control/openarm.bimanual.ros2_control.xacro
+[1.183s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v2.0/urdf/ros2_control/openarm.ros2_control.xacro
+[1.183s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v2.0/urdf/example
+[1.183s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/robot/openarm_v2.0/urdf/example/v2.urdf
+[1.183s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/__init__.py
+[1.184s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/end_effector
+[1.184s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/end_effector/parallel_link
+[1.184s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/end_effector/parallel_link/config
+[1.184s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/end_effector/parallel_link/config/kinematics.yaml
+[1.184s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/end_effector/parallel_link/config/kinematics_link.yaml
+[1.184s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/end_effector/parallel_link/config/inertials.yaml
+[1.184s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/end_effector/parallel_link/config/joint_limits.yaml
+[1.184s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/end_effector/parallel_link/meshes
+[1.184s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/end_effector/parallel_link/meshes/visual
+[1.184s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/end_effector/parallel_link/meshes/visual/hand.dae
+[1.185s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/end_effector/parallel_link/meshes/visual/finger.dae
+[1.189s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/end_effector/parallel_link/meshes/visual/finger.stl
+[1.190s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/end_effector/parallel_link/meshes/collision
+[1.190s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/end_effector/parallel_link/meshes/collision/finger.stl
+[1.190s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/end_effector/parallel_link/meshes/collision/hand.stl
+[1.190s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/end_effector/parallel_link/urdf
+[1.190s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/end_effector/parallel_link/urdf/parallel_link_standalone.urdf.xacro
+[1.191s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/end_effector/pinch_gripper
+[1.191s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/end_effector/pinch_gripper/config
+[1.191s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/end_effector/pinch_gripper/config/struct
+[1.191s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/end_effector/pinch_gripper/config/struct/topology.yaml
+[1.191s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/end_effector/pinch_gripper/config/struct/reference_points.yaml
+[1.191s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/end_effector/pinch_gripper/config/struct/name_mapping.yaml
+[1.191s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/end_effector/pinch_gripper/config/inertials
+[1.192s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/end_effector/pinch_gripper/config/inertials/nominal.yaml
+[1.192s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/end_effector/pinch_gripper/config/joint
+[1.192s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/end_effector/pinch_gripper/config/joint/joint_origins.yaml
+[1.192s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/end_effector/pinch_gripper/config/joint/joint_limits.yaml
+[1.192s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/end_effector/pinch_gripper/config/joint/joint_axes.yaml
+[1.192s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/end_effector/pinch_gripper/config/joint/joint_mimics.yaml
+[1.192s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/end_effector/pinch_gripper/config/old
+[1.192s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/end_effector/pinch_gripper/config/old/kinematics.yaml
+[1.192s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/end_effector/pinch_gripper/config/old/kinematics_link.yaml
+[1.192s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/end_effector/pinch_gripper/config/old/inertials.yaml
+[1.192s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/end_effector/pinch_gripper/config/old/joint_limits.yaml
+[1.195s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/end_effector/pinch_gripper/config/link
+[1.195s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/end_effector/pinch_gripper/config/link/visuals.yaml
+[1.195s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/end_effector/pinch_gripper/config/link/collisions.yaml
+[1.195s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/end_effector/pinch_gripper/meshes
+[1.195s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/end_effector/pinch_gripper/meshes/visual
+[1.195s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/end_effector/pinch_gripper/meshes/visual/finger_inner.dae
+[1.195s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/end_effector/pinch_gripper/meshes/visual/finger_outer.dae
+[1.196s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/end_effector/pinch_gripper/meshes/visual/ee_base_link.dae
+[1.199s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/end_effector/pinch_gripper/meshes/collision
+[1.199s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/end_effector/pinch_gripper/meshes/collision/finger_inner.stl
+[1.199s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/end_effector/pinch_gripper/meshes/collision/splited
+[1.199s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/end_effector/pinch_gripper/meshes/collision/splited/finger_outer
+[1.199s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/end_effector/pinch_gripper/meshes/collision/splited/finger_outer/finger_outer_02.stl
+[1.199s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/end_effector/pinch_gripper/meshes/collision/splited/finger_outer/finger_outer_01.stl
+[1.199s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/end_effector/pinch_gripper/meshes/collision/splited/finger_outer/finger_outer_03.stl
+[1.199s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/end_effector/pinch_gripper/meshes/collision/splited/finger_outer/finger_outer_00.stl
+[1.199s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/end_effector/pinch_gripper/meshes/collision/splited/finger_outter
+[1.199s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/end_effector/pinch_gripper/meshes/collision/splited/finger_outter/finger_outter_02.stl
+[1.200s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/end_effector/pinch_gripper/meshes/collision/splited/finger_outter/finger_outter_01.stl
+[1.200s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/end_effector/pinch_gripper/meshes/collision/splited/finger_outter/finger_outter_00.stl
+[1.200s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/end_effector/pinch_gripper/meshes/collision/splited/finger_inner
+[1.200s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/end_effector/pinch_gripper/meshes/collision/splited/finger_inner/finger_inner_01.stl
+[1.200s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/end_effector/pinch_gripper/meshes/collision/splited/finger_inner/finger_inner_00.stl
+[1.200s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/end_effector/pinch_gripper/meshes/collision/splited/finger_inner/finger_inner_02.stl
+[1.200s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/end_effector/pinch_gripper/meshes/collision/splited/finger_inner/finger_inner_03.stl
+[1.200s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/end_effector/pinch_gripper/meshes/collision/ee_base_link.stl
+[1.200s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/end_effector/pinch_gripper/meshes/collision/finger_outer.stl
+[1.200s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/end_effector/pinch_gripper/urdf
+[1.200s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/end_effector/pinch_gripper/urdf/pinch_gripper_standalone.urdf.xacro
+[1.200s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/sensor
+[1.200s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/sensor/zed
+[1.200s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/sensor/zed/urdf_wrapper
+[1.201s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/assets/sensor/zed/urdf_wrapper/openarm_zed_wrapper.xacro
+[1.201s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/launch
+[1.201s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/launch/display_openarm.launch.py
+[1.201s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/rviz
+[1.201s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/rviz/bimanual.rviz
+[1.201s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/rviz/arm_only.rviz
+[1.201s] -- Installing: /openarm_ws/src/install/openarm_description/share/ament_index/resource_index/package_run_dependencies/openarm_description
+[1.201s] -- Installing: /openarm_ws/src/install/openarm_description/share/ament_index/resource_index/parent_prefix_path/openarm_description
+[1.201s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/environment/ament_prefix_path.sh
+[1.201s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/environment/ament_prefix_path.dsv
+[1.202s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/environment/path.sh
+[1.202s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/environment/path.dsv
+[1.202s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/local_setup.bash
+[1.202s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/local_setup.sh
+[1.202s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/local_setup.zsh
+[1.202s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/local_setup.dsv
+[1.202s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/package.dsv
+[1.202s] -- Installing: /openarm_ws/src/install/openarm_description/share/ament_index/resource_index/packages/openarm_description
+[1.202s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/cmake/openarm_descriptionConfig.cmake
+[1.202s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/cmake/openarm_descriptionConfig-version.cmake
+[1.203s] -- Installing: /openarm_ws/src/install/openarm_description/share/openarm_description/package.xml
+[1.203s] Invoked command in '/openarm_ws/src/build/openarm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /openarm_ws/src/build/openarm_description

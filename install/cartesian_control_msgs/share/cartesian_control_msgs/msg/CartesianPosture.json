@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "cartesian_control_msgs/msg/CartesianPosture",
+      "fields": [
+        {
+          "name": "posture_joint_names",
+          "type": {
+            "type_id": 161,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "posture_joint_values",
+          "type": {
+            "type_id": 155,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "cartesian_control_msgs/msg/CartesianPosture",
+      "hash_string": "RIHS01_9a6fec270a786ae6824044d12efcd6daa5b57e3ba8ab6963c5c741a2f03c7e3c"
+    }
+  ]
+}

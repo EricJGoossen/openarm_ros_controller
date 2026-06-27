@@ -1,0 +1,4 @@
+Invoking command in '/openarm_ws/src/build/openarm_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /openarm_ws/src/build/openarm_hardware -- -j14 -l14
+Invoked command in '/openarm_ws/src/build/openarm_hardware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /openarm_ws/src/build/openarm_hardware -- -j14 -l14
+Invoking command in '/openarm_ws/src/build/openarm_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /openarm_ws/src/build/openarm_hardware
+Invoked command in '/openarm_ws/src/build/openarm_hardware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /openarm_ws/src/build/openarm_hardware
